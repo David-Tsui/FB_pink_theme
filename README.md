@@ -4,10 +4,10 @@ Change your fb to a pink world!!!
 
 ##**How to use:**
 
-Copy the js code then open your Google Chrome/FireFox then add a bookmark,
+1. Copy the js code then open your Google Chrome/FireFox then add a bookmark,
 
-paste the code in the url field, name it whatever.
+2. Paste the code in the url field, name it whatever.
 
-Open your Facebook, click the bookmark, then....
+3. Open your Facebook, click the bookmark you've created, then....
 
-##**WELCOME TO THE PINK WORLD!!!**
+#**WELCOME TO THE PINK WORLD!!!**
