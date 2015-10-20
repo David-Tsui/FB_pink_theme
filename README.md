@@ -1,5 +1,5 @@
-### FB_pink_theme
-###Change your fb to a pink world!!!
+## FB_pink_theme
+Change your fb to a pink world!!!
 
 
 ##**How to use:**
