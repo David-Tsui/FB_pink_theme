@@ -98,9 +98,9 @@ javascript:
 		firstSheet.insertRule("#contentCol {
 			background: rgba(255, 255, 255, 0.0) !important;
 		}", 0);
-
-	  /*var useless_text = document.querySelectorAll(".fsm.fwn.fcg");
-	  useless_text[3].style.display = "none";*/
+		firstSheet.insertRule("._5bsm ._mp3 img {
+		  border-radius: 50% !important;
+		}", 0);
 	};
 
   var changeBelowChat = function() {
