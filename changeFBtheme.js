@@ -13,44 +13,40 @@ var changeNavbar = function() {
 		content: none !important;
 	}", 0);
 	/* 首頁新增通知 */
-/*firstSheet.insertRule("._5ah- {
-display: inline !important;
-}", 0);
-firstSheet.insertRule("._5ahz {
-background: #FF6A93 !important;
-border-radius: 16px !important;
-box-shadow: 0 0 4px 2px rgba(245, 40, 40, 0.85) !important;
-margin: 5px 0px 0px 8px !important;
-}", 0);*/
-/* 功能按鈕(好友、訊息、通知、隱私設定) */
-firstSheet.insertRule("._24xk a.jewelButton, ._3nzl a.jewelButton { 
-	background-image: url(https://goo.gl/KnwxgO) !important;
-	background-size: 27px !important;
-	background-position: top left !important;
-}", 0);
-firstSheet.insertRule("._1z4y a.jewelButton { 
-	background-image: url(https://goo.gl/oi1rqt) !important;
-	background-size: 27px !important;
-	background-position: top left !important;
-}", 0);
-firstSheet.insertRule("._4xi2.east a.jewelButton { 
-	background-image: url(https://goo.gl/IxpmLw) !important;
-	background-size: 27px !important;
-	background-position: top left !important;
-}", 0);
-firstSheet.insertRule("._59fb { 
-	width: 20px !important;
-	height: 18px !important;
-	margin: 5px !important;
-}", 0);
-firstSheet.insertRule("._5cop ._59fb { 
-	background-image: url(https://goo.gl/93ZY3A) !important;
-	background-size: 20px 18px !important;
-	background-position: top left !important;
-}", 0);
-firstSheet.insertRule("._59fc ._1ayn {
-	margin-left: -9px !important;
-}", 0);
+	firstSheet.insertRule("._5ahz {
+    background: #FF90AE !important;
+    border-radius: 50% !important;
+    box-shadow: none !important;
+	}", 0);
+	/* 功能按鈕(好友、訊息、通知、隱私設定) */
+	firstSheet.insertRule("._24xk a.jewelButton, ._3nzl a.jewelButton { 
+		background-image: url(https://goo.gl/KnwxgO) !important;
+		background-size: 27px !important;
+		background-position: top left !important;
+	}", 0);
+	firstSheet.insertRule("._1z4y a.jewelButton { 
+		background-image: url(https://goo.gl/oi1rqt) !important;
+		background-size: 27px !important;
+		background-position: top left !important;
+	}", 0);
+	firstSheet.insertRule("._4xi2.east a.jewelButton { 
+		background-image: url(https://goo.gl/IxpmLw) !important;
+		background-size: 27px !important;
+		background-position: top left !important;
+	}", 0);
+	firstSheet.insertRule("._59fb { 
+		width: 20px !important;
+		height: 18px !important;
+		margin: 5px !important;
+	}", 0);
+	firstSheet.insertRule("._5cop ._59fb { 
+		background-image: url(https://goo.gl/93ZY3A) !important;
+		background-size: 20px 18px !important;
+		background-position: top left !important;
+	}", 0);
+	firstSheet.insertRule("._59fc ._1ayn {
+		margin-left: -9px !important;
+	}", 0);
 };
 
 var changeRightChat = function() {
@@ -179,7 +175,8 @@ var changeFloat = function() {
 		border-top-left-radius: 20px !important;
 		border-top-right-radius: 20px !important;
 	}", 0);
-	firstSheet.insertRule(".friendBrowserForm, #u_0_5, #fbNotificationsFlyout, #fbRequestsFlyout {
+	/* 所有上方的彈出視窗 */
+	firstSheet.insertRule(".__tw {
 		background: rgb(252, 255, 238) !important;
 		box-shadow: none !important;
 		border-radius: 20px !important;
@@ -192,16 +189,23 @@ var changeFloat = function() {
 	firstSheet.insertRule("._3nzl ._3nzk .hasPYMK {
 		border: none !important;
 	}", 0);
-	firstSheet.insertRule(".__tw .jewelFooter a {
+	firstSheet.insertRule("._1y2l li a.messagesContent:hover {
+		background-color: rgb(255, 255, 255) !important;
+	}", 0);
+	/* 隱私權header */
+	firstSheet.insertRule("._8-b ._26y1 {
+    background: -webkit-linear-gradient(#FFBFCB, #FDFFE8) !important;
+		border: none !important;
+		border-top-left-radius: 20px !important;
+		border-top-right-radius: 20px !important;
+	}", 0);
+	/* footer */
+	firstSheet.insertRule(".__tw .jewelFooter a, ._26y3 {
 		background: -webkit-linear-gradient(bottom, #FFBFCB, #FDFFE8) !important;
 		border: none !important;
 		border-bottom-left-radius: 20px !important;
 		border-bottom-right-radius: 20px !important;
 	}", 0);
-	firstSheet.insertRule("._1y2l li a.messagesContent:hover {
-		background-color: rgb(255, 255, 255) !important;
-	}", 0);
-
 };
 var actionHandle = function() {
 
