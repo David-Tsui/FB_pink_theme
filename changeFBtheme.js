@@ -5,14 +5,9 @@ var changeNavbar = function() {
 	navbar[0].style.background = "rgb(255, 185, 205)";
 	navbar[0].style.borderBottom = 0;
 	navbar[0].style.boxShadow = "none";
-	firstSheet.insertRule("._3zm- a 
-	{
-           text-shadow: none !important;
-	}", 0);
+	firstSheet.insertRule("._3zm- a { text-shadow: none !important;	}", 0);
 	/* */
-	firstSheet.insertRule("._4f7n:after { 
-		content: none !important;
-	}", 0);
+	firstSheet.insertRule("._4f7n:after { content: none !important;	}", 0);
 	/* 首頁新增通知 */
 	firstSheet.insertRule("._5ahz {
     background: #FF90AE !important;
