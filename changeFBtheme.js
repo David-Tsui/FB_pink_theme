@@ -1,10 +1,12 @@
 javascript: 
 var firstSheet = document.styleSheets[0];
 var changeNavbar = function() {
-	var navbar = document.getElementsByClassName("_4f7n");
-	navbar[0].style.background = "rgb(255, 185, 205)";
-	navbar[0].style.borderBottom = 0;
-	navbar[0].style.boxShadow = "none";
+	/* navbar主體 */
+	firstSheet.insertRule("._4f7n {
+		background: rgb(255, 185, 205) !important;
+		border-bottom: none !important;
+		box-shadow: none !important;
+	}", 0);
 	firstSheet.insertRule("._3zm- a {
 		text-shadow: none !important;
 	}", 0);
@@ -188,7 +190,7 @@ var changeBelowChat = function() {
 	/* 聊天訊息尾端箭頭 */ 
 	firstSheet.insertRule("._3okg:after, ._3okg:before {
 		content: none !important;
-	}",0);
+	}", 0);
 	/* 聊天時間紀錄 */ 
 	firstSheet.insertRule("._5w-6 {
 		background-color: rgb(255, 237, 243) !important;
@@ -212,7 +214,6 @@ var changeFloat = function() {
 		border: none !important;
 		box-shadow: none !important;
 	}", 0);
-
 	firstSheet.insertRule(".__tw .jewelHeader {
 		background: -webkit-linear-gradient(#FFBFCB, #FDFFE8) !important;
 		border: none !important;
