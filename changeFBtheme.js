@@ -96,7 +96,7 @@ var changeRightChat = function() {
 
 var changeBase = function() {
 	firstSheet.insertRule("._li {
-		background-image: url(https://goo.gl/6Q21UF) !important;
+		background: url(https://goo.gl/6Q21UF) !important;
 	}", 0);
 	firstSheet.insertRule("#leftCol {
 		background: rgba(255, 255, 255, 0.0) !important;
@@ -114,6 +114,14 @@ var changeBase = function() {
 		border-top: 2px solid transparent !important;
 		border-radius: 40px !important;
 		border-color: rgb(255, 255, 255) !important;
+	}", 0);
+	/* 全部訊息頁面 */
+	firstSheet.insertRule("#globalContainer {
+		background: url(https://goo.gl/6Q21UF) !important;
+	}", 0);
+	firstSheet.insertRule("._ksg, ._1rs { 
+		background: url(https://goo.gl/6Q21UF) !important;
+		border: none !important;
 	}", 0);
 };
 
