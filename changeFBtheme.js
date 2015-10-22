@@ -11,9 +11,9 @@ var changeNavbar = function() {
 	firstSheet.insertRule("._4f7n:after { content: none !important;	}", 0);
 	/* 首頁新增通知 */
 	firstSheet.insertRule("._5ahz {
-    background: #FF90AE !important;
-    border-radius: 50% !important;
-    box-shadow: none !important;
+		background: #FF90AE !important;
+		border-radius: 50% !important;
+		box-shadow: none !important;
 	}", 0);
 	/* 功能按鈕(好友、訊息、通知、隱私設定) */
 	firstSheet.insertRule("._24xk a.jewelButton, ._3nzl a.jewelButton { 
@@ -49,14 +49,14 @@ var changeNavbar = function() {
 var changeRightChat = function() {
 	/* Loading 失敗 */
 	firstSheet.insertRule("._1ht9 {
-    background: url(https://goo.gl/WL7Yn0) !important;
-    background-position: -17px 0px !important;
-    border-left: none !important;
-    box-shadow: none !important;
-  }", 0);
-  /* 本體背景 */
+		background: url(https://goo.gl/sUXuhq) !important;
+		background-position: -17px 0px !important;
+		border-left: none !important;
+		box-shadow: none !important;
+	}", 0);
+	/* 本體背景 */
 	firstSheet.insertRule("._51x_ {
-		background: url(https://goo.gl/WL7Yn0) !important;
+		background: url(https://goo.gl/sUXuhq) !important;
 		background-position: -17px 0px !important;
 	}", 0);
 	firstSheet.insertRule(".fbChatSidebarBody { 
@@ -125,23 +125,23 @@ var changeBase = function() {
 var changeBelowChat = function() {
 	/* 沒點開的header */
 	firstSheet.insertRule("._5q5b .fbNubButton {
-    border-top-left-radius: 20px !important;
-    border-top-right-radius: 20px !important;
-    background: rgb(255, 192, 203) !important;
-  }", 0);
-  firstSheet.insertRule("._5q5b .fbNubButton:before, ._5q5b .fbNubButton:after {
+		border-top-left-radius: 20px !important;
+		border-top-right-radius: 20px !important;
+		background: rgb(255, 192, 203) !important;
+	}", 0);
+	firstSheet.insertRule("._5q5b .fbNubButton:before, ._5q5b .fbNubButton:after {
 		content: none !important;
-  }", 0);
+	}", 0);
 	/* 聊天室小視窗姓名欄 */
 	firstSheet.insertRule("._5q5b .fbNubFlyoutTitlebar {
 		background: rgb(255, 192, 203) !important;
 		border-color: rgba(255, 255, 255, 0) !important;
 	}", 0);
 	firstSheet.insertRule("._5q5b ._50mz .fbChatTab .name {
-    color: #FFFFFF !important;
-    text-shadow: none !important; 
-    text-align: center !important;
-    margin-left: -4px !important;
+		color: #FFFFFF !important;
+		text-shadow: none !important; 
+		text-align: center !important;
+		margin-left: -4px !important;
 	}", 0);
 	firstSheet.insertRule("._5238 .fbNubButton .wrap, ._5239 .fbNubButton .wrap { 
 		padding-left: 0px !important;
@@ -151,8 +151,8 @@ var changeBelowChat = function() {
 		position: relative !important;
 	}", 0);
 	firstSheet.insertRule("a:hover .fbChatTab .funhouse {
-    position: absolute !important;
-    right: 0 !important;
+		position: absolute !important;
+		right: 0 !important;
 	}", 0);
 	/* 聊天室小視窗姓名欄閃爍 */
 	firstSheet.insertRule("._50mz.highlightTitle .fbNubFlyoutTitlebar {
@@ -235,7 +235,7 @@ var changeFloat = function() {
 	}", 0);
 	/* 隱私權header */
 	firstSheet.insertRule("._8-b ._26y1 {
-    background: -webkit-linear-gradient(#FFBFCB, #FDFFE8) !important;
+		background: -webkit-linear-gradient(#FFBFCB, #FDFFE8) !important;
 		border: none !important;
 		border-top-left-radius: 20px !important;
 		border-top-right-radius: 20px !important;

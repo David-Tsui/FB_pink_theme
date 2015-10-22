@@ -27,9 +27,9 @@ changeNavbar = function() {
 
 var changeRightChat = function() {
 	/* Loading 失敗 */
-	firstSheet.insertRule("._1ht9 {background: url(https://goo.gl/WL7Yn0) !important; background-position: -17px 0px !important;border-left: none !important;box-shadow: none !important;}", 0);
-  /* 本體背景 */
-	firstSheet.insertRule("._51x_ {	background: url(https://goo.gl/WL7Yn0) !important;background-position: -17px 0px !important;}", 0);
+	firstSheet.insertRule("._1ht9 {background: url(https://goo.gl/sUXuhq) !important; background-position: -17px 0px !important;border-left: none !important;box-shadow: none !important;}", 0);
+	/* 本體背景 */
+	firstSheet.insertRule("._51x_ {	background: url(https://goo.gl/sUXuhq) !important;background-position: -17px 0px !important;}", 0);
 	firstSheet.insertRule(".fbChatSidebarBody {background: rgba(255, 255, 255, 0.65) !important;}", 0);
 	firstSheet.insertRule("._5pr2 .fbChatOrderedList ._42fz a:hover {box-shadow: 0px 0px 29px 8px rgb(255, 185, 211) !important;background: rgba(255, 192, 203, 0.8) !important;}", 0);
 	firstSheet.insertRule("._5pr2 ._42fz a:hover {border-color: rgb(255, 255, 255) !important;}", 0);
@@ -57,7 +57,7 @@ var changeBase = function() {
 var changeBelowChat = function() {
 	/* 沒點開的header */
 	firstSheet.insertRule("._5q5b .fbNubButton {  border-top-left-radius: 20px !important; border-top-right-radius: 20px !important;background: rgb(255, 192, 203) !important;}", 0);
-  firstSheet.insertRule("._5q5b .fbNubButton:before, ._5q5b .fbNubButton:after {content: none !important;}", 0);
+	firstSheet.insertRule("._5q5b .fbNubButton:before, ._5q5b .fbNubButton:after {content: none !important;}", 0);
 	/* 聊天室小視窗姓名欄 */
 	firstSheet.insertRule("._5q5b .fbNubFlyoutTitlebar {	background: rgb(255, 192, 203) !important;	border-color: rgba(255, 255, 255, 0) !important;}", 0);
 	firstSheet.insertRule("._5q5b ._50mz .fbChatTab .name {  color: #FFFFFF !important;  text-shadow: none !important;  text-align: center !important;   margin-left: -4px !important;}", 0);
