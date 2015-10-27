@@ -17,19 +17,19 @@ changeNavbar = function() {
 	/* 首頁新增通知 */
 	firstSheet.insertRule("._5ahz { background: #FF90AE !important;  border-radius: 50% !important; box-shadow: none !important;}", 0);
 	/* 功能按鈕(好友、訊息、通知、隱私設定) */
-	firstSheet.insertRule("._24xk a.jewelButton, ._3nzl a.jewelButton { 	background-image: url(https://goo.gl/KnwxgO) !important;background-size: 27px !important;	background-position: top left !important;}", 0);
-	firstSheet.insertRule("._1z4y a.jewelButton { background-image: url(https://goo.gl/oi1rqt) !important;background-size: 27px !important;	background-position: top left !important;}", 0);
-	firstSheet.insertRule("._4xi2.east a.jewelButton { 	background-image: url(https://goo.gl/IxpmLw) !important;background-size: 27px !important;	background-position: top left !important;}", 0);
+	firstSheet.insertRule("._24xk a.jewelButton, ._3nzl a.jewelButton { 	background-image: url(https://goo.gl/XTHuW8) !important;background-size: 27px !important;	background-position: top left !important;}", 0);
+	firstSheet.insertRule("._1z4y a.jewelButton { background-image: url(https://goo.gl/OIBXct) !important;background-size: 27px !important;	background-position: top left !important;}", 0);
+	firstSheet.insertRule("._4xi2.east a.jewelButton { 	background-image: url(https://goo.gl/TLvn6G) !important;background-size: 27px !important;	background-position: top left !important;}", 0);
 	firstSheet.insertRule("._59fb { width: 20px !important;	height: 18px !important;	margin: 5px !important;}", 0);
-	firstSheet.insertRule("._5cop ._59fb { background-image: url(https://goo.gl/93ZY3A) !important;background-size: 20px 18px !important;background-position: top left !important;}", 0);
+	firstSheet.insertRule("._5cop ._59fb { background-image: url(https://goo.gl/Dc37oM) !important;background-size: 20px 18px !important;background-position: top left !important;}", 0);
 	firstSheet.insertRule("._59fc ._1ayn {margin-left: -9px !important;}", 0);
 };
 
 var changeRightChat = function() {
 	/* Loading 失敗 */
-	firstSheet.insertRule("._1ht9 {background: url(https://goo.gl/sUXuhq) !important; background-position: -17px 0px !important;border-left: none !important;box-shadow: none !important;}", 0);
+	firstSheet.insertRule("._1ht9 {background: url(https://goo.gl/0s5XGl) !important; background-position: -17px 0px !important;border-left: none !important;box-shadow: none !important;}", 0);
 	/* 本體背景 */
-	firstSheet.insertRule("._51x_ {	background: url(https://goo.gl/sUXuhq) !important;background-position: -17px 0px !important;}", 0);
+	firstSheet.insertRule("._51x_ {	background: url(https://goo.gl/0s5XGl) !important;background-position: -17px 0px !important;}", 0);
 	firstSheet.insertRule(".fbChatSidebarBody {background: rgba(255, 255, 255, 0.65) !important;}", 0);
 	firstSheet.insertRule("._5pr2 .fbChatOrderedList ._42fz a:hover {box-shadow: 0px 0px 29px 8px rgb(255, 185, 211) !important;background: rgba(255, 192, 203, 0.8) !important;}", 0);
 	firstSheet.insertRule("._5pr2 ._42fz a:hover {border-color: rgb(255, 255, 255) !important;}", 0);
@@ -45,7 +45,7 @@ var changeRightChat = function() {
 };
 
 var changeBase = function() {
-	firstSheet.insertRule("._li {	background: url(https://goo.gl/6Q21UF) !important;}", 0);
+	firstSheet.insertRule("._li {	background: url(https://goo.gl/bWYy8h) !important;}", 0);
 	firstSheet.insertRule("#leftCol {	background: rgba(255, 255, 255, 0.0) !important;}", 0);
 	firstSheet.insertRule("#contentCol {background: rgba(255, 255, 255, 0.0) !important;}", 0);
 	firstSheet.insertRule("._5bsm ._mp3 img {	border-radius: 50% !important;}", 0);
