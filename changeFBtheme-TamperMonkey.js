@@ -52,7 +52,8 @@ var changeBase = function() {
 	firstSheet.insertRule("._5vb_ ._55y4 ._bui ._5afe:hover {	box-shadow: 0px 0px 29px 8px rgb(255, 185, 211) !important;	background: rgba(255, 192, 203, 0.8) !important;border-bottom: 2px solid transparent !important;	border-top: 2px solid transparent !important;	border-radius: 40px !important;	border-color: rgb(255, 255, 255) !important;}", 0);
 	/* 全部訊息頁面 */
 	firstSheet.insertRule("#globalContainer {	background: url(https://goo.gl/92mQPc !important;}", 0);
-    firstSheet.insertRule("._ksg, ._1rs { 	background: url(https://goo.gl/92mQPc !important;	border: none !important;}", 0);
+  firstSheet.insertRule("._ksg, ._1rs { 	background: url(https://goo.gl/92mQPc !important;	border: none !important;}", 0);
+  //firstSheet.insertRule("")
 };
 
 var changeBelowChat = function() {
@@ -85,10 +86,10 @@ var changeBelowChat = function() {
 };
 
 var changeFloat = function() {
-	/* 加朋友 */
-	firstSheet.insertRule("._4jy1 {background: rgb(255, 132, 177) !important;border-radius: 8px !important;border: none !important;box-shadow: none !important;}", 0);
 	/* */
+	firstSheet.insertRule("._42ft._4jy0._11b._4jy3._4jy1.selected._51sy {background: rgb(255, 132, 177) !important;border-radius: 8px !important;border: none !important;box-shadow: none !important;}", 0);
 	firstSheet.insertRule("._4jy0 { background: snow !important;margin-top: -1px !important;border-radius: 12px !important;border: none !important;box-shadow: none !important;}", 0);
+	/* 加朋友 */
 
 	firstSheet.insertRule(".__tw .jewelHeader {		background: -webkit-linear-gradient(#FFBFCB, #FDFFE8) !important;		border: none !important;		border-top-left-radius: 20px !important;		border-top-right-radius: 20px !important;}", 0);
 	/* 所有上方的彈出視窗 */
