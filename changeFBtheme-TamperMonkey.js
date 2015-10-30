@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Pink Facebook Thene
+// @name         Pink Facebook Theme
 // @namespace    http://www.facebook.com
 // @version      0.1
 // @description  Change your Facebook to PINNNNKKK!
@@ -51,7 +51,8 @@ var changeBase = function() {
 	firstSheet.insertRule("._5bsm ._mp3 img {	border-radius: 50% !important;}", 0);
 	firstSheet.insertRule("._5vb_ ._55y4 ._bui ._5afe:hover {	box-shadow: 0px 0px 29px 8px rgb(255, 185, 211) !important;	background: rgba(255, 192, 203, 0.8) !important;border-bottom: 2px solid transparent !important;	border-top: 2px solid transparent !important;	border-radius: 40px !important;	border-color: rgb(255, 255, 255) !important;}", 0);
 	/* 全部訊息頁面 */
-	firstSheet.insertRule("#globalContainer {	background: url(https://goo.gl/6Q21UF) !important;}", 0);firstSheet.insertRule("._ksg, ._1rs { 	background: url(https://goo.gl/6Q21UF) !important;	border: none !important;}", 0);
+	firstSheet.insertRule("#globalContainer {	background: url(https://goo.gl/92mQPc !important;}", 0);
+    firstSheet.insertRule("._ksg, ._1rs { 	background: url(https://goo.gl/92mQPc !important;	border: none !important;}", 0);
 };
 
 var changeBelowChat = function() {
