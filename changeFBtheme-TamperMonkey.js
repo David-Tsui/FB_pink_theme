@@ -10,8 +10,8 @@
 
 firstSheet = document.styleSheets[0];
 changeNavbar = function() {
-	firstSheet.insertRule("._4f7n, ._42ft._4jy0.layerCancel.uiOverlayButton._4jy3._4jy1._51sy, ._42ft._4jy0.layerConfirm.uiOverlayButton._4jy3._4jy1.selected._51sy, ._42ft.mvs.mrs._4jy0._5282._4jy3._4jy1.selected._51sy {background: rgb(255, 185, 205) !important;border-bottom: none !important;box-shadow: none !important;}", 0);
-	firstSheet.insertRule("._3zm- a {	text-shadow: none !important;}", 0);
+	firstSheet.insertRule("._4f7n, ._42ft._4jy0.layerCancel.uiOverlayButton._4jy3._4jy1._51sy, ._42ft._4jy0.layerConfirm.uiOverlayButton._4jy3._4jy1.selected._51sy, ._42ft.mvs.mrs._4jy0._5282._4jy3._4jy1.selected._51sy, ._1mf7._4jy0._4jy3._4jy1._51sy.selected._42ft { background: rgb(255, 185, 205) !important;border-bottom: none !important;box-shadow: none !important;}", 0);
+	firstSheet.insertRule("._3zm- a { text-shadow: none !important;}", 0);
 	/* */
 	firstSheet.insertRule("._4f7n:after { content: none !important;}", 0);
 	/* 首頁新增通知 */
