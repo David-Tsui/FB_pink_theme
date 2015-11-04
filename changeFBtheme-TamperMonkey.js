@@ -10,7 +10,7 @@
 
 firstSheet = document.styleSheets[0];
 changeNavbar = function() {
-	firstSheet.insertRule("._4f7n, ._42ft._4jy0.layerCancel.uiOverlayButton._4jy3._4jy1._51sy, ._42ft._4jy0.layerConfirm.uiOverlayButton._4jy3._4jy1.selected._51sy, ._42ft.mvs.mrs._4jy0._5282._4jy3._4jy1.selected._51sy, ._1mf7._4jy0._4jy3._4jy1._51sy.selected._42ft, ._42ft._4jy0.layerButton._5wvw._5ipw.uiOverlayButton._4jy3._4jy1.selected._51sy, .layerConfirm ._4jy0 ._4jy3 ._4jy1 ._51sy .selected ._42ft { background: rgb(255, 185, 205) !important;border-bottom: none !important;box-shadow: none !important;}", 0);
+	firstSheet.insertRule("._4f7n, ._42ft._4jy0.layerCancel.uiOverlayButton._4jy3._4jy1._51sy, ._42ft._4jy0.layerConfirm.uiOverlayButton._4jy3._4jy1.selected._51sy, ._42ft.mvs.mrs._4jy0._5282._4jy3._4jy1.selected._51sy, ._1mf7._4jy0._4jy3._4jy1._51sy.selected._42ft, ._42ft._4jy0.layerButton._5wvw._5ipw.uiOverlayButton._4jy3._4jy1.selected._51sy, .layerConfirm ._4jy0 ._4jy3 ._4jy1 ._51sy .selected ._42ft, ._2g61._4jy0._4jy3._4jy1._51sy.selected._42ft { background: rgb(255, 185, 205) !important;border-bottom: none !important;box-shadow: none !important;}", 0);
 	firstSheet.insertRule("._3zm- a { text-shadow: none !important;}", 0);
 	/* */
 	firstSheet.insertRule("._4f7n:after { content: none !important;}", 0);
@@ -86,8 +86,8 @@ var changeBelowChat = function() {
 
 var changeFloat = function() {
 	/* */
-	firstSheet.insertRule("._42ft._4jy0._11b._4jy3._4jy1.selected._51sy {background: rgb(255, 132, 177) !important;border-radius: 8px !important;border: none !important;box-shadow: none !important;}", 0);
-	firstSheet.insertRule("._4jy0 { background: snow !important;margin-top: -1px !important;border-radius: 12px !important;border: none !important;box-shadow: none !important;}", 0);
+	firstSheet.insertRule("._42ft._4jy0._11b._4jy3._4jy1.selected._51sy, ._42ft._4jy0.FriendRequestAdd.addButton._4jy3._4jy1.selected._51sy {background: rgb(255, 132, 177) !important;border-radius: 8px !important;border: none !important;box-shadow: none !important;}", 0);
+	firstSheet.insertRule("._4jy0 { margin-top: -1px !important;border-radius: 12px !important;border: none !important;box-shadow: none !important;}", 0);
 	/* 加朋友 */
 
 	firstSheet.insertRule(".__tw .jewelHeader {		background: -webkit-linear-gradient(#FFBFCB, #FDFFE8) !important;		border: none !important;		border-top-left-radius: 20px !important;		border-top-right-radius: 20px !important;}", 0);
