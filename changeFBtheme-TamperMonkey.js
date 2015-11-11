@@ -34,8 +34,9 @@ var changeRightChat = function() {
 	firstSheet.insertRule(".fbChatSidebarBody {background: rgba(255, 255, 255, 0.65) !important;}", 0);
 	firstSheet.insertRule("._5pr2 .fbChatOrderedList ._42fz a:hover {box-shadow: 0px 0px 29px 8px rgb(255, 185, 211) !important;background: rgba(255, 192, 203, 0.8) !important;}", 0);
 	firstSheet.insertRule("._5pr2 ._42fz a:hover {border-color: rgb(255, 255, 255) !important;}", 0);
-	firstSheet.insertRule("._5pr2 ._55ln {border-bottom: 2px solid transparent !important;border-top: 2px solid transparent !important;		border-radius: 40px !important;	}", 0);
+	firstSheet.insertRule("._5pr2 ._55ln {border-bottom: 2px solid transparent !important;border-top: 2px solid transparent !important; border-radius: 40px !important;	}", 0);
 	firstSheet.insertRule(".fbChatSidebarBody [data-reactid] > * > * {border-radius: 1000px !important;	}", 0);
+	firstSheet.insertRule(".fbChatSidebarBody ._56p9 {border-radius: 1000px !important;}", 0);
 	firstSheet.insertRule("._5pr2 ._56p9 { overflow: hidden; }", 0);
 	/* 動態牆的頭像 */
 	firstSheet.insertRule("*[data-hovercard] img {border-color: transparent !important;	border-radius: 1000px !important;}", 0);
