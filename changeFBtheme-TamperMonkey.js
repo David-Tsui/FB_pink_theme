@@ -63,7 +63,7 @@ var changeBelowChat = function() {
 	firstSheet.insertRule(".fbNubButton:before, ._5q5b .fbNubButton:after {content: none !important;}", 0);
 	/* 聊天室小視窗姓名欄 */
 	firstSheet.insertRule("._20fw ._50mz.highlightTab .fbNubButton, ._20fw .fbNubFlyoutTitlebar {	background: rgb(255, 192, 203) !important;	border-color: rgba(255, 255, 255, 0) !important;}", 0);
-	firstSheet.insertRule("._5q5b ._50mz .fbChatTab .name {  color: #FFFFFF !important;  text-shadow: none !important;  text-align: center !important;   margin-left: -4px !important;}", 0);
+	firstSheet.insertRule("._50mz .fbChatTab .name { font-weight: 700 !important; letter-spacing: .2em; color: #FFFFFF !important;  text-shadow: none !important;  text-align: center !important;   margin-left: -4px !important;}", 0);
 	firstSheet.insertRule("._5238 .fbNubButton .wrap, ._5239 .fbNubButton .wrap { padding-left: 0px !important;}", 0);
 	/* 右上角的小xx */
 	firstSheet.insertRule(".clearfix .fbChatTab {	position: relative !important;}", 0);
