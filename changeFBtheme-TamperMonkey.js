@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         Pink Facebook Theme
 // @namespace    http://www.facebook.com
-// @version      0.1
+// @version      1
 // @description  Change your Facebook to PINNNNKKK!
 // @author       David Tsui
-// @match        https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo/related?hl=zh-TW
+// @match        https://www.facebook.com/*
 // @grant        none
 // ==/UserScript==
 
@@ -59,10 +59,10 @@ var changeBase = function() {
 
 var changeBelowChat = function() {
 	/* 沒點開的header */
-	firstSheet.insertRule("._5q5b .fbNubButton {  border-top-left-radius: 20px !important; border-top-right-radius: 20px !important;background: rgb(255, 192, 203) !important;}", 0);
-	firstSheet.insertRule("._5q5b .fbNubButton:before, ._5q5b .fbNubButton:after {content: none !important;}", 0);
+	firstSheet.insertRule(".fbNubButton { text-align: center !important; border-top-left-radius: 20px !important; border-top-right-radius: 20px !important;background: rgb(255, 192, 203) !important;}", 0);
+	firstSheet.insertRule(".fbNubButton:before, ._5q5b .fbNubButton:after {content: none !important;}", 0);
 	/* 聊天室小視窗姓名欄 */
-	firstSheet.insertRule("._5q5b .fbNubFlyoutTitlebar {	background: rgb(255, 192, 203) !important;	border-color: rgba(255, 255, 255, 0) !important;}", 0);
+	firstSheet.insertRule("._20fw ._50mz.highlightTab .fbNubButton, ._20fw .fbNubFlyoutTitlebar {	background: rgb(255, 192, 203) !important;	border-color: rgba(255, 255, 255, 0) !important;}", 0);
 	firstSheet.insertRule("._5q5b ._50mz .fbChatTab .name {  color: #FFFFFF !important;  text-shadow: none !important;  text-align: center !important;   margin-left: -4px !important;}", 0);
 	firstSheet.insertRule("._5238 .fbNubButton .wrap, ._5239 .fbNubButton .wrap { padding-left: 0px !important;}", 0);
 	/* 右上角的小xx */
