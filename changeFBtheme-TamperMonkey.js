@@ -7,9 +7,11 @@
 // @match        https://www.facebook.com/*
 // @grant        none
 // ==/UserScript==
+/* jshint -W097 */
+'use strict';
 
-firstSheet = document.styleSheets[0];
-changeNavbar = function() {
+var firstSheet = document.styleSheets[0];
+var changeNavbar = function() {
 	firstSheet.insertRule("._4f7n, ._42ft._4jy0.layerCancel.uiOverlayButton._4jy3._4jy1._51sy, ._42ft._4jy0.layerConfirm.uiOverlayButton._4jy3._4jy1.selected._51sy, ._42ft.mvs.mrs._4jy0._5282._4jy3._4jy1.selected._51sy, ._1mf7._4jy0._4jy3._4jy1._51sy.selected._42ft, ._42ft._4jy0.layerButton._5wvw._5ipw.uiOverlayButton._4jy3._4jy1.selected._51sy, .layerConfirm ._4jy0 ._4jy3 ._4jy1 ._51sy .selected ._42ft, ._2g61._4jy0._4jy3._4jy1._51sy.selected._42ft { background: rgb(255, 185, 205) !important;border-bottom: none !important;box-shadow: none !important;}", 0);
 	firstSheet.insertRule(".openToggler>._5vto, .openToggler>._5vto:hover, .openToggler>._5vto:focus, .openToggler>._5vto:active { background: rgb(255, 132, 177) !important; border: none !important;box-shadow: none !important;}",0);
 	firstSheet.insertRule("._3zm- a { text-shadow: none !important;}", 0);
