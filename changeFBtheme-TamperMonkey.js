@@ -7,11 +7,9 @@
 // @match        https://www.facebook.com/*
 // @grant        none
 // ==/UserScript==
-/* jshint -W097 */
-'use strict';
 
-var firstSheet = document.styleSheets[0];
-var changeNavbar = function() {
+firstSheet = document.styleSheets[0];
+changeNavbar = function() {
 	firstSheet.insertRule("._4f7n, ._42ft._4jy0.layerCancel.uiOverlayButton._4jy3._4jy1._51sy, ._42ft._4jy0.layerConfirm.uiOverlayButton._4jy3._4jy1.selected._51sy, ._42ft.mvs.mrs._4jy0._5282._4jy3._4jy1.selected._51sy, ._1mf7._4jy0._4jy3._4jy1._51sy.selected._42ft, ._42ft._4jy0.layerButton._5wvw._5ipw.uiOverlayButton._4jy3._4jy1.selected._51sy, .layerConfirm ._4jy0 ._4jy3 ._4jy1 ._51sy .selected ._42ft, ._2g61._4jy0._4jy3._4jy1._51sy.selected._42ft { background: rgb(255, 185, 205) !important;border-bottom: none !important;box-shadow: none !important;}", 0);
 	firstSheet.insertRule(".openToggler>._5vto, .openToggler>._5vto:hover, .openToggler>._5vto:focus, .openToggler>._5vto:active { background: rgb(255, 132, 177) !important; border: none !important;box-shadow: none !important;}",0);
 	firstSheet.insertRule("._3zm- a { text-shadow: none !important;}", 0);
@@ -26,6 +24,9 @@ var changeNavbar = function() {
 	firstSheet.insertRule("._59fb { width: 20px !important;	height: 18px !important;	margin: 5px !important;}", 0);
 	firstSheet.insertRule("._5cop ._59fb { background-image: url(https://goo.gl/f78Vin) !important;background-size: 20px 18px !important;background-position: top left !important;}", 0);
 	firstSheet.insertRule("._59fc ._1ayn {margin-left: -9px !important;}", 0);
+    /* 左上搜尋欄 */
+    firstSheet.insertRule(".__wu ._539-.roundedBox .uiSearchInput.reDesignedInput button.btnSelected { background: #FF84B7; }");
+    firstSheet.insertRule(".__wu .roundedBox .uiTypeahead button.btnSelected .searchIcon { background-position: -49px -252px !important; }");
 };
 
 var changeRightChat = function() {
