@@ -12,8 +12,8 @@ firstSheet = document.styleSheets[0];
 changeNavbar = function() {
     
 	//firstSheet.insertRule("._2s1x ._2s1y, ._4f7n, ._42ft._4jy0.layerCancel.uiOverlayButton._4jy3._4jy1._51sy, ._42ft._4jy0.layerConfirm.uiOverlayButton._4jy3._4jy1.selected._51sy, ._42ft.mvs.mrs._4jy0._5282._4jy3._4jy1.selected._51sy, ._1mf7._4jy0._4jy3._4jy1._51sy.selected._42ft, ._42ft._4jy0.layerButton._5wvw._5ipw.uiOverlayButton._4jy3._4jy1.selected._51sy, .layerConfirm ._4jy0 ._4jy3 ._4jy1 ._51sy .selected ._42ft, ._2g61._4jy0._4jy3._4jy1._51sy.selected._42ft { background: rgb(255, 185, 205) !important;border-bottom: none !important;box-shadow: none !important;}", 0);
-	firstSheet.insertRule(".openToggler>._5vto, .openToggler>._5vto:hover, .openToggler>._5vto:focus, .openToggler>._5vto:active { background: rgb(255, 132, 177) !important; border: none !important;box-shadow: none !important;}",0);
-	/*firstSheet.insertRule("._3zm- a { text-shadow: none !important;}", 0);
+	//firstSheet.insertRule(".openToggler>._5vto, .openToggler>._5vto:hover, .openToggler>._5vto:focus, .openToggler>._5vto:active { background: rgb(255, 132, 177) !important; border: none !important;box-shadow: none !important;}",0);
+	firstSheet.insertRule("._3zm- a { text-shadow: none !important;}", 0);
 	//
 	firstSheet.insertRule("._4f7n:after { content: none !important;}", 0);
 	// 首頁新增通知 
@@ -21,14 +21,14 @@ changeNavbar = function() {
 	// 功能按鈕(好友、訊息、通知、隱私設定) 
 	firstSheet.insertRule("._24xk a.jewelButton, ._3nzl a.jewelButton { 	background-image: url(https://goo.gl/k9paAu) !important;background-size: 27px !important;	background-position: top left !important;}", 0);
 	firstSheet.insertRule(".highContrastSetting ._3nzl a.jewelButton ._2n_9, .highContrastSetting ._1z4y a.jewelButton ._2n_9, .highContrastSetting ._4xi2.east a.jewelButton ._2n_9 { background-image: none !important; }");
-    firstSheet.insertRule("._1z4y a.jewelButton { background-image: url(https://goo.gl/bpWWhe) !important;background-size: 27px !important;	background-position: top left !important;}", 0);
+  firstSheet.insertRule("._1z4y a.jewelButton { background-image: url(https://goo.gl/bpWWhe) !important;background-size: 27px !important;	background-position: top left !important;}", 0);
 	firstSheet.insertRule("._4xi2.east a.jewelButton { 	background-image: url(https://goo.gl/gNey7Q) !important;background-size: 27px !important;	background-position: top left !important;}", 0);
 	firstSheet.insertRule("._59fb { width: 20px !important;	height: 18px !important;	margin: 5px !important;}", 0);
 	firstSheet.insertRule("._5cop ._59fb, ._4d1i ._59fb { background-image: url(https://goo.gl/f78Vin) !important;background-size: 20px 18px !important;background-position: top left !important;}", 0);
 	firstSheet.insertRule("._59fc ._1ayn {margin-left: -9px !important;}", 0);
     // 左上搜尋欄 
     firstSheet.insertRule(".__wu ._539-.roundedBox .uiSearchInput.reDesignedInput button.btnSelected { background: #FF84B7; }");
-    firstSheet.insertRule(".__wu .roundedBox .uiTypeahead button.btnSelected .searchIcon { background-position: -49px -252px !important; }");*/
+    firstSheet.insertRule(".__wu .roundedBox .uiTypeahead button.btnSelected .searchIcon { background-position: -49px -252px !important; }");
 };
 
 var changeRightChat = function() {
@@ -58,10 +58,10 @@ var changeBase = function() {
 	firstSheet.insertRule("._5bsm ._mp3 img {	border-radius: 50% !important;}", 0);
 	firstSheet.insertRule("._5vb_ ._55y4 ._bui ._5afe:hover { box-shadow: 0px 0px 29px 8px rgb(255, 185, 211) !important;	background: rgba(255, 192, 203, 0.8) !important;border-bottom: 2px solid transparent !important;	border-top: 2px solid transparent !important;	border-radius: 40px !important;	border-color: rgb(255, 255, 255) !important;}", 0);
 	// 全部訊息頁面 
-	firstSheet.insertRule("#globalContainer {	background: url(https://goo.gl/92mQPc !important;}", 0);
-    firstSheet.insertRule("._ksg, ._1rs { 	background: url(https://goo.gl/92mQPc !important;	border: none !important;}", 0);
-    firstSheet.insertRule("._5vsj._5vsj._5vsj { background-color: #FDFFEA !important; }");
-    firstSheet.insertRule(".UFIRow, ._5vsj .UFIRow { background-color: transparent !important }");
+	firstSheet.insertRule("#globalContainer {	background: url(https://goo.gl/92mQPc) !important;}", 0);
+  firstSheet.insertRule("._ksg, ._1rs { background: url(https://goo.gl/92mQPc) !important;	border: none !important;}", 0);
+  firstSheet.insertRule("._5vsj._5vsj._5vsj { background-color: #FDFFEA !important; }");
+  firstSheet.insertRule(".UFIRow, ._5vsj .UFIRow { background-color: transparent !important }");
 };
 
 var changeBelowChat = function() {
