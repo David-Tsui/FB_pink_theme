@@ -206,7 +206,9 @@
   border-bottom-left-radius: 20px !important;
   border-bottom-right-radius: 20px !important;
 }
-/* 右方聊天室 */
+}
+
+/**************************************************************** 右方聊天室 **************************************************************/
 /* >> 背景 >> 資料loading失敗、正在loading時 */
 
 ._1ht9,
@@ -296,7 +298,8 @@ img._s0._7lw._rv.img {
   background: #F5FFC7;
   z-index: 1;
 }
-/* 整體畫面 */
+
+/******************************************************************* 整體畫面 ****************************************************************/
 /* >> 背景 */
 
 ._li {
@@ -333,7 +336,8 @@ img._bth.img {
   border-radius: 40px !important;
   border-color: rgb(255, 255, 255) !important;
 }
-/* 全部訊息畫面 */
+
+/***************************************************************** 全部訊息畫面 *******************************************************************/
 /* >> 背景 */
 
 #globalContainer {
@@ -377,7 +381,8 @@ img._bth.img {
 ._2nj {
   background: rgba(255, 255, 255, 0.5) !important;
 }
-/* 下方聊天室 */
+
+/***************************************************************** 下方聊天室 *****************************************************************/
 /* ????? */
 
 .fbNubButton {
@@ -453,7 +458,8 @@ a:hover .fbChatTab .funhouse {
   background-color: rgb(255, 237, 243) !important;
   color: rgba(255, 109, 142, 0.74) !important;
 }
-/* 其他類別 */
+
+/******************************************************************* 其他類別 *******************************************************************/
 /* 按鈕 >> 加朋友 */
 
 ._42ft._4jy0._11b._4jy3._4jy1.selected._51sy,
@@ -470,7 +476,7 @@ a:hover .fbChatTab .funhouse {
   border: none !important;
   box-shadow: none !important;
 }
-/* 按鈕 >> 發文相關 >> 發布 */
+/* 按鈕 >> 發文相關 >> 發佈 */
 
 button._42ft._4jy0._ej1._4jy3._4jy1.selected._51sy,
 button._1mf7._4jy0._4jy3._4jy1._51sy.selected._42ft,
@@ -479,21 +485,28 @@ button._1mf7._4jy0._4jy3._4jy1._51sy.selected._42ft,
 .openToggler>._5vto:focus,
 .openToggler>._5vto:active {
   background: rgb(255, 132, 177) !important;
+  box-shadow: #FFB9D8 0 2px 5px 1px, rgba(139, 139, 139, 0.48) 0 1px 1px 1px !important;
   font-weight: 400 !important;
 }
-/* 按鈕 >> 發文相關 >> 分享權限 */
+/* 按鈕 >> 發文相關 >> 分享權限 >> 點擊後 */
 
 ._42ft._4jy0._55pi._5vto._55_p._2agf._p._4jy3._517h._51sy {
   font-weight: 400 !important;
   text-shadow: none !important;
   background: #F8FFBF !important;
+  color: #4c4c4c !important;
   box-shadow: #FFCFE9 0 2px 5px 1px, rgba(139, 139, 139, 0.48) 0 1px 1px 1px !important;
 }
-/* */
+/* 按鈕 >> 發文相關 >> 分享權限 >> 點擊前 */
 
 ._6a.uiPopover:not(.selected) ._42ft._4jy0._55pi._5vto._55_p._2agf._p._4jy3._517h._51sy {
   background: #F8FFBF;
   box-shadow: #FFCFE9 0 2px 5px 1px, rgba(139, 139, 139, 0.48) 0 1px 1px 1px !important;
+}
+/* 按鈕 >> 發文相關 >> 分享權限 >> 點擊前下三角 */
+
+.selected .sp_RBnnTl7hYum.sx_456447 {
+  background-position: -77px -392px !important;
 }
 /* 按鈕 >> 發文相關 >> 分享權限 >> 彈出選單 >> 公開 */
 
@@ -512,4 +525,11 @@ button._1mf7._4jy0._4jy3._4jy1._51sy.selected._42ft,
 }
 .sp_CVJEvaKwTI4.sx_faaee5 {
   background-position: 0 0 !important;
+}
+/* 按鈕 >> 發文相關 >> 分享權限 >> 彈出選單 >> 僅限本人 */
+
+i.mrs.img.sp_CVJEvaKwTI4.sx_eed554 {
+  background-image: url(https://goo.gl/XMaAJu) !important;
+  background-position: 0 0 !important;
+}
 }
