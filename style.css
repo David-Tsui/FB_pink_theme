@@ -282,7 +282,7 @@ img._s0._7lw._rv.img {
 /* >> 搜尋欄 >> 背景*/
 
 ._5pr2 ._56p9:after {
-  border: none !important
+  border: none !important;
 }
 .fbChatTypeahead ._5iwm ._58al {
   background: linear-gradient(#fff, #FFC6D7 10%) !important;
@@ -335,6 +335,11 @@ img._bth.img {
   border-top: 2px solid transparent !important;
   border-radius: 40px !important;
   border-color: rgb(255, 255, 255) !important;
+}
+/* 發文區塊 */
+/* */
+._4-u8 {
+  background-color: rgba(255, 255, 255, 0.75) !important;
 }
 
 /***************************************************************** 全部訊息畫面 *******************************************************************/
@@ -459,6 +464,11 @@ a:hover .fbChatTab .funhouse {
   color: rgba(255, 109, 142, 0.74) !important;
 }
 
+/***************************************************************** 動態牆 *********************************************************************/
+div#pagelet_timeline_recent {
+  background: transparent;
+}
+
 /******************************************************************* 其他類別 *******************************************************************/
 /* 按鈕 >> 加朋友 */
 
@@ -485,7 +495,8 @@ button._1mf7._4jy0._4jy3._4jy1._51sy.selected._42ft,
 .openToggler>._5vto:focus,
 .openToggler>._5vto:active {
   background: rgb(255, 132, 177) !important;
-  box-shadow: #FFB9D8 0 2px 5px 1px, rgba(139, 139, 139, 0.48) 0 1px 1px 1px !important;
+/*   box-shadow: #FFB9D8 0 2px 5px 1px, rgba(139, 139, 139, 0.48) 0 1px 1px 1px !important; */
+  box-shadow: #8D8D8D 0 2px 4px -1px !important;
   font-weight: 400 !important;
 }
 /* 按鈕 >> 發文相關 >> 分享權限 >> 點擊後 */
@@ -495,13 +506,15 @@ button._1mf7._4jy0._4jy3._4jy1._51sy.selected._42ft,
   text-shadow: none !important;
   background: #F8FFBF !important;
   color: #4c4c4c !important;
-  box-shadow: #FFCFE9 0 2px 5px 1px, rgba(139, 139, 139, 0.48) 0 1px 1px 1px !important;
+/*   box-shadow: #FFCFE9 0 2px 5px 1px, rgba(139, 139, 139, 0.48) 0 1px 1px 1px !important; */
+  box-shadow: #A3A3A3 0 2px 4px -1px !important;
 }
 /* 按鈕 >> 發文相關 >> 分享權限 >> 點擊前 */
 
 ._6a.uiPopover:not(.selected) ._42ft._4jy0._55pi._5vto._55_p._2agf._p._4jy3._517h._51sy {
   background: #F8FFBF;
-  box-shadow: #FFCFE9 0 2px 5px 1px, rgba(139, 139, 139, 0.48) 0 1px 1px 1px !important;
+/*   box-shadow: #FFADD9 0 2px 4px 0px, rgba(139, 139, 139, 0.48) 0 1px 2px 0px !important; */
+  box-shadow: #A3A3A3 0 2px 4px -1px !important;
 }
 /* 按鈕 >> 發文相關 >> 分享權限 >> 點擊前下三角 */
 
@@ -532,4 +545,7 @@ i.mrs.img.sp_CVJEvaKwTI4.sx_eed554 {
   background-image: url(https://goo.gl/XMaAJu) !important;
   background-position: 0 0 !important;
 }
+/* 按鈕 >> 廣告 >> */
+button._42ft._4jy0._4jy3._4jy1.selected._51sy {
+  background: rgb(255, 132, 177) !important;
 }
