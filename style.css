@@ -1,0 +1,515 @@
+/**************************************************************** 導覽列 *********************************************************************/
+/* >> 背景 */
+
+._2s1x ._2s1y {
+  background: rgb(255, 185, 205) !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+/* >> 左上fb icon  */
+
+._2md {
+  background-position: -9px -39px !important;
+  height: 25px !important;
+  width: 25px !important;
+}
+/* >> 搜尋欄 >> 容器 */
+
+.uiTypeahead {
+  border-radius: 0 25px 25px 0 !important;
+}
+/* >> 搜尋欄 >> button */
+
+.__wu ._539-.roundedBox .uiSearchInput.reDesignedInput button {
+  border-radius: 0 25px 25px 0 !important;
+  background: #FF81A2 !important;
+  display: flex !important;
+  justify-content: flex-end !important;
+  width: 64px !important;
+}
+/* >> 搜尋欄 >> button為焦點 */
+
+.__wu ._539-.roundedBox .uiSearchInput.reDesignedInput button.btnSelected {
+  background: linear-gradient(90deg, #fff 0%, #FFA9BF 43%, #FF81A2 73%) !important;
+  width: 150px !important;
+  transition: all .5s !important;
+}
+.__wu .roundedBox .uiTypeahead .searchIcon {
+  background-position: -19px -60px !important;
+  padding-right: 24px !important;
+  position: static !important;
+}
+/* >> 姓名、首頁、尋找名字 >> 字體、hover效果 */
+
+._2s1x ._2s25 {
+  text-shadow: 0px 0px 2px rgba(0, 0, 0, .8) !important;
+  font-weight: 400 !important;
+  font-size: .85rem !important;
+}
+._2s1x ._2s25:hover,
+._2s1x ._2s25:focus,
+._2s1x ._2s25:active {
+  background: rgba(255, 242, 246, 0.73) !important;
+  border-radius: 35px !important;
+  color: #323232 !important;
+  text-shadow: none !important;
+}
+/* >> 姓名、首頁、尋找名字 >> 中間分隔線 */
+
+._2s24::before {
+  content: none !important;
+}
+/* >> 姓名、首頁、尋找名字 >> padding */
+
+._4q39 {
+  margin: 0 !important;
+  padding: 8px 0px !important;
+}
+/* >> 姓名、首頁、尋找名字 >> 姓名 >> 姓名左方之大頭貼 */
+
+._1k69 {
+  border: none !important;
+  border-radius: 20px !important;
+}
+/* >> 姓名、首頁、尋找名字 >> 首頁 >> 通知數字 */
+
+._4u91 {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 10px !important;
+  height: 10px !important;
+  background: rgba(255, 255, 255, 0.85) !important;
+  border-radius: 20px !important;
+  padding: 5px !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  color: #FF1365;
+}
+/* >> 交友、訊息、通知 >> 通知 >> 通知數字 */
+
+._5ugg,
+._3z_5 {
+  background: #FF457D !important;
+  border-radius: 5px !important;
+  padding: 1px 3px !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  width: 10px !important;
+  height: 9px !important;
+  display: inline-flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+/* >> 交友、訊息、通知 >> All >> 隱藏原先icon、設定padding */
+
+._3nzl a.jewelButton ._2n_9,
+._1z4y a.jewelButton ._2n_9,
+._4xi2.east a.jewelButton ._2n_9 {
+  background-image: none !important;
+}
+._4962 a.jewelButton,
+._4962 a.jewelButton:active,
+._4962 a.jewelButton:focus,
+._4962 a.jewelButton:hover {
+  padding: 2px 4px !important;
+}
+/* >> 交友、訊息、通知 >> 交友 >> icon */
+
+._24xk a.jewelButton,
+._3nzl a.jewelButton {
+  background-image: url(https://goo.gl/k9paAu) !important;
+  background-size: 31px !important;
+  background-position: top left !important;
+  background-repeat: no-repeat;
+}
+/* >> 交友、訊息、通知 >> 訊息 >> icon */
+
+._1z4y a.jewelButton {
+  background-image: url(https://goo.gl/bpWWhe) !important;
+  background-size: 31px !important;
+  background-position: top left !important;
+  background-repeat: no-repeat;
+}
+/* >> 交友、訊息、通知 >> 通知 >> icon */
+
+._4xi2.east a.jewelButton {
+  background-image: url(https://goo.gl/gNey7Q) !important;
+  background-size: 31px !important;
+  background-position: top left !important;
+  background-repeat: no-repeat;
+}
+/* >> 隱私權 >> 容器 */
+
+._1uh-._2s24 {
+  display: flex;
+  align-items: center;
+}
+._4d1i {
+  margin: 0 !important;
+}
+/* >> 隱私權 >> icon */
+
+._59fb {
+  width: 22px !important;
+  height: 20px !important;
+}
+._5cop ._59fb,
+._4d1i ._59fb {
+  background-image: url(https://goo.gl/f78Vin) !important;
+  background-size: 22px 20px !important;
+  background-position: top left !important;
+  background-repeat: no-repeat;
+}
+/* >> 浮出視窗 >> header */
+
+.__tw .jewelHeader {
+  background: linear-gradient(#FFBFCB, #FDFFE8) !important;
+  border: none !important;
+  border-top-left-radius: 20px !important;
+  border-top-right-radius: 20px !important;
+}
+/* >> 浮出視窗 >> 背景 */
+
+.__tw {
+  background: rgb(252, 255, 238) !important;
+  box-shadow: none !important;
+  border-radius: 20px !important;
+}
+/* >> 浮出視窗 >> 交友邀請 */
+
+._3nzk .fbRequestList .listGray {
+  background: rgb(252, 255, 238) !important;
+}
+._3nzl ._3nzk .hasPYMK {
+  border: none !important;
+}
+/* */
+
+._1y2l li a.messagesContent:hover {
+  background-color: rgb(255, 255, 255) !important;
+}
+/* >> 浮出視窗 >> 隱私權 */
+
+._8-b ._26y1 {
+  background: linear-gradient(#FFBFCB, #FDFFE8) !important;
+  border: none !important;
+  border-top-left-radius: 20px !important;
+  border-top-right-radius: 20px !important;
+}
+/* >> 浮出視窗 >> 註腳 */
+
+.__tw .jewelFooter a,
+._26y3 {
+  background: linear-gradient(0deg, #FFBFCB, #FDFFE8) !important;
+  border: none !important;
+  border-bottom-left-radius: 20px !important;
+  border-bottom-right-radius: 20px !important;
+}
+/* 右方聊天室 */
+/* >> 背景 >> 資料loading失敗、正在loading時 */
+
+._1ht9,
+.fbChatSidebar {
+  background: url(https://goo.gl/RkTRIn) !important;
+  background-position: -17px 0px !important;
+  border-left: none !important;
+  box-shadow: none !important;
+}
+/* >> 背景 >> loading成功背景，其實跟上面一樣 */
+
+._51x_ {
+  background: url(https://goo.gl/RkTRIn) !important;
+  background-position: -17px 0px !important;
+}
+/* >> 背景 >> 遮罩 */
+
+.fbChatSidebarBody {
+  background: rgba(255, 255, 255, 0.65) !important;
+}
+/* >> 名條 >> hover效果 */
+
+._5pr2 .fbChatOrderedList ._42fz a:hover {
+  box-shadow: 0px 0px 29px 8px rgb(255, 185, 211) !important;
+  background: rgba(255, 192, 203, 0.8) !important;
+}
+._5pr2 ._42fz a:hover {
+  border-color: rgb(255, 255, 255) !important;
+}
+/* >> 名條 >> 間距 */
+
+._5pr2 ._55ln {
+  border-bottom: 2px solid transparent !important;
+  border-top: 2px solid transparent !important;
+  border-radius: 40px !important;
+}
+/* >> 名條 >> 大頭貼 */
+
+.fbChatSidebarBody ._56p9 {
+  border-radius: 1000px !important;
+}
+._5pr2 ._56p9 {
+  overflow: hidden !important;
+}
+/* >> 名條 >> 資訊浮動視窗 >> 外框 */
+
+._53ii ._53ij {
+  border: 3px double #FFD2E5 !important;
+  border-radius: 10px !important;
+  box-shadow: 0 0 0 1px rgba(255, 101, 161, 0.2), 0 0 6px 3px rgba(255, 143, 183, 0.49) !important;
+}
+/* >> 名條 >> 資訊浮動視窗 >> 背景 */
+
+._7ll {
+  background: rgb(255, 255, 238) !important;
+  box-shadow: pink 0 0 10px 2px inset;
+  border-radius: 7px;
+}
+/* >> 名條 >> 資訊浮動視窗 >> 內部連結hover event */
+
+._4o-g:hover {
+  background-color: transparent !important;
+}
+._7lu td[rowspan="2"] {
+  display: table-cell !important;
+  vertical-align: middle;
+}
+img._s0._7lw._rv.img {
+  border-radius: 10px !important;
+}
+/* >> 搜尋欄 >> 背景*/
+
+._5pr2 ._56p9:after {
+  border: none !important
+}
+.fbChatTypeahead ._5iwm ._58al {
+  background: linear-gradient(#fff, #FFC6D7 10%) !important;
+  box-shadow: 0px -10px 20px 0 #FFFFFF !important;
+}
+._4oes {
+  border-top: none !important;
+}
+/* >> 搜尋欄 >> 查無結果 */
+
+.fbChatTypeahead ._5t4c {
+  position: relative;
+  background: #F5FFC7;
+  z-index: 1;
+}
+/* 整體畫面 */
+/* >> 背景 */
+
+._li {
+  background: url(https://goo.gl/92mQPc) !important;
+}
+/* >> 動態牆 >> 背景 */
+
+#contentCol {
+  background: transparent !important;
+}
+/* >> 動態牆 >> 頭像 */
+
+img._s0._44ma.img,
+img._bth.img {
+  border-radius: 1000px !important;
+}
+*[data-hovercard] img {
+  border-color: transparent !important;
+  border-radius: 1000px !important;
+}
+/* >> 動態牆 >> 頭像 >> 邊框 */
+
+._3hvt:after,
+._38vo:after {
+  content: none !important;
+}
+/* >> 社團、應用程式列表 */
+
+._5vb_ ._55y4 ._bui ._5afe:hover {
+  box-shadow: 0px 0px 29px 8px rgb(255, 185, 211) !important;
+  background: rgba(255, 192, 203, 0.8) !important;
+  border-bottom: 2px solid transparent !important;
+  border-top: 2px solid transparent !important;
+  border-radius: 40px !important;
+  border-color: rgb(255, 255, 255) !important;
+}
+/* 全部訊息畫面 */
+/* >> 背景 */
+
+#globalContainer {
+  background: url(https://goo.gl/92mQPc) !important;
+}
+._ksg,
+._1rs {
+  background: url(https://goo.gl/92mQPc) !important;
+  border: none !important;
+}
+/* >> 搜尋欄 >> 背景 */
+
+._3j5 {
+  background-color: rgb(250, 255, 209);
+}
+/* >> 名條 >> 選取中、hover */
+
+.wmMasterView ._k-:hover,
+.wmMasterView ._k-._kv,
+.wmMasterView ._k-._kx {
+  /*   background: rgba(255, 168, 202, 0.7) !important;
+  border: none !important; */
+  
+  box-shadow: 0px 0px 29px 8px rgb(255, 185, 211) !important;
+  background: rgba(255, 192, 203, 0.8) !important;
+  border-bottom: 2px solid transparent !important;
+  border-top: 2px solid transparent !important;
+  border-radius: 40px !important;
+  border-color: rgb(255, 255, 255) !important;
+}
+/* >> 名條 >> 文字 */
+
+._kv,
+._l4,
+._kv ._l1,
+._kv ._l3 {
+  color: black !important;
+}
+/* >> 中央 >> 背景 */
+
+._2nj {
+  background: rgba(255, 255, 255, 0.5) !important;
+}
+/* 下方聊天室 */
+/* ????? */
+
+.fbNubButton {
+  text-align: center !important;
+  border-top-left-radius: 20px !important;
+  border-top-right-radius: 20px !important;
+  background: rgb(255, 192, 203) !important;
+}
+.fbNubButton:before,
+._5q5b .fbNubButton:after {
+  content: none !important;
+}
+/* >> 名條 >> 背景 */
+
+._20fw ._50mz.highlightTab .fbNubButton,
+._20fw .fbNubFlyoutTitlebar {
+  background: rgb(255, 192, 203) !important;
+  border-color: rgba(255, 255, 255, 0) !important;
+}
+/* >> 名條 >> 姓名 */
+
+._50mz .fbChatTab .name {
+  font-weight: 700 !important;
+  letter-spacing: .2em;
+  color: #FFFFFF !important;
+  text-align: center !important;
+  margin-left: -4px !important;
+  text-shadow: 0px 0px 2px rgba(0, 0, 0, .8) !important;
+}
+/* >> 名條 >> 容器（與關閉相關） */
+
+.clearfix .fbChatTab {
+  position: relative !important;
+}
+/* >> 名條 >> 右上關閉 */
+
+a:hover .fbChatTab .funhouse {
+  position: absolute !important;
+  right: 0 !important;
+}
+/* >> 名條 >> 位讀閃爍效果（好像沒用） */
+
+._50mz.highlightTitle .fbNubFlyoutTitlebar {
+  background: rgb(255, 157, 193) !important;
+}
+.fbNubFlyoutTitlebar:hover {
+  background: rgb(255, 157, 193) !important;
+}
+._50mz.focusedTab.titlebar {
+  background: rgb(255, 157, 193) !important;
+}
+/* >> 視窗 >> 背景 */
+
+.fbDockChatTabFlyout .fbNubFlyoutBody {
+  background-color: rgb(255, 237, 243) !important;
+}
+/* >> 視窗 >> 訊息 >> 外框 */
+
+._5w1r {
+  border: 5px double rgba(255, 76, 76, 0.18) !important;
+}
+/* >> 視窗 >> 訊息 >> 外框（自己的訊息）*/
+
+._1nc6 ._5w1r,
+._1nc6 ._3okg:before {
+  background: none !important;
+  border-radius: 8px !important;
+  box-shadow: 0px 0px 10px 0px rgb(255, 185, 211) inset !important;
+}
+/* */
+
+._5w-6 {
+  background-color: rgb(255, 237, 243) !important;
+  color: rgba(255, 109, 142, 0.74) !important;
+}
+/* 其他類別 */
+/* 按鈕 >> 加朋友 */
+
+._42ft._4jy0._11b._4jy3._4jy1.selected._51sy,
+._42ft._4jy0.FriendRequestAdd.addButton._4jy3._4jy1.selected._51sy {
+  background: rgb(255, 132, 177) !important;
+  border-radius: 8px !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+/* 按鈕 >> 發文相關 */
+
+._4jy0 {
+  border-radius: 12px !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+/* 按鈕 >> 發文相關 >> 發布 */
+
+button._42ft._4jy0._ej1._4jy3._4jy1.selected._51sy,
+button._1mf7._4jy0._4jy3._4jy1._51sy.selected._42ft,
+.openToggler>._5vto,
+.openToggler>._5vto:hover,
+.openToggler>._5vto:focus,
+.openToggler>._5vto:active {
+  background: rgb(255, 132, 177) !important;
+  font-weight: 400 !important;
+}
+/* 按鈕 >> 發文相關 >> 分享權限 */
+
+._42ft._4jy0._55pi._5vto._55_p._2agf._p._4jy3._517h._51sy {
+  font-weight: 400 !important;
+  text-shadow: none !important;
+  background: #F8FFBF !important;
+  box-shadow: #FFCFE9 0 2px 5px 1px, rgba(139, 139, 139, 0.48) 0 1px 1px 1px !important;
+}
+/* */
+
+._6a.uiPopover:not(.selected) ._42ft._4jy0._55pi._5vto._55_p._2agf._p._4jy3._517h._51sy {
+  background: #F8FFBF;
+  box-shadow: #FFCFE9 0 2px 5px 1px, rgba(139, 139, 139, 0.48) 0 1px 1px 1px !important;
+}
+/* 按鈕 >> 發文相關 >> 分享權限 >> 彈出選單 >> 公開 */
+
+.sp_NiKc0wWc6LP {
+  background-image: url(https://goo.gl/6NLD6I) !important;
+  background-size: cover !important;
+}
+.sp_NiKc0wWc6LP.sx_febe76 {
+  background-position: 0 0 !important;
+}
+/* 按鈕 >> 發文相關 >> 分享權限 >> 彈出選單 >> 朋友 */
+
+.sp_CVJEvaKwTI4 {
+  background-image: url(https://goo.gl/kaJA9E) !important;
+  background-size: cover !important;
+}
+.sp_CVJEvaKwTI4.sx_faaee5 {
+  background-position: 0 0 !important;
+}
