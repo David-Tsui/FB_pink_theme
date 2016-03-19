@@ -1,3 +1,4 @@
+@-moz-document url-prefix("https://www.facebook.com/"), url-prefix("https://app.facebook.com") {
 /**************************************************************** 導覽列 *********************************************************************/
 /* >> 背景 */
 
@@ -46,9 +47,7 @@
   font-weight: 400 !important;
   font-size: .85rem !important;
 }
-._2s1x ._2s25:hover,
-._2s1x ._2s25:focus,
-._2s1x ._2s25:active {
+._2s1x ._2s25:hover, ._2s1x ._2s25:focus, ._2s1x ._2s25:active {
   background: rgba(255, 242, 246, 0.73) !important;
   border-radius: 35px !important;
   color: #323232 !important;
@@ -88,8 +87,7 @@
 }
 /* >> 交友、訊息、通知 >> 通知 >> 通知數字 */
 
-._5ugg,
-._3z_5 {
+._5ugg, ._3z_5 {
   background: #FF457D !important;
   border-radius: 5px !important;
   padding: 1px 3px !important;
@@ -103,21 +101,15 @@
 }
 /* >> 交友、訊息、通知 >> All >> 隱藏原先icon、設定padding */
 
-._3nzl a.jewelButton ._2n_9,
-._1z4y a.jewelButton ._2n_9,
-._4xi2.east a.jewelButton ._2n_9 {
+._3nzl a.jewelButton ._2n_9, ._1z4y a.jewelButton ._2n_9, ._4xi2.east a.jewelButton ._2n_9 {
   background-image: none !important;
 }
-._4962 a.jewelButton,
-._4962 a.jewelButton:active,
-._4962 a.jewelButton:focus,
-._4962 a.jewelButton:hover {
+._4962 a.jewelButton, ._4962 a.jewelButton:active, ._4962 a.jewelButton:focus, ._4962 a.jewelButton:hover {
   padding: 2px 4px !important;
 }
 /* >> 交友、訊息、通知 >> 交友 >> icon */
 
-._24xk a.jewelButton,
-._3nzl a.jewelButton {
+._24xk a.jewelButton, ._3nzl a.jewelButton {
   background-image: url(https://goo.gl/k9paAu) !important;
   background-size: 31px !important;
   background-position: top left !important;
@@ -154,8 +146,7 @@
   width: 22px !important;
   height: 20px !important;
 }
-._5cop ._59fb,
-._4d1i ._59fb {
+._5cop ._59fb, ._4d1i ._59fb {
   background-image: url(https://goo.gl/f78Vin) !important;
   background-size: 22px 20px !important;
   background-position: top left !important;
@@ -199,8 +190,7 @@
 }
 /* >> 浮出視窗 >> 註腳 */
 
-.__tw .jewelFooter a,
-._26y3 {
+.__tw .jewelFooter a, ._26y3 {
   background: linear-gradient(0deg, #FFBFCB, #FDFFE8) !important;
   border: none !important;
   border-bottom-left-radius: 20px !important;
@@ -211,8 +201,7 @@
 /**************************************************************** 右方聊天室 **************************************************************/
 /* >> 背景 >> 資料loading失敗、正在loading時 */
 
-._1ht9,
-.fbChatSidebar {
+._1ht9, .fbChatSidebar {
   background: url(https://goo.gl/RkTRIn) !important;
   background-position: -17px 0px !important;
   border-left: none !important;
@@ -312,8 +301,7 @@ img._s0._7lw._rv.img {
 }
 /* >> 縮小版聊天室 >> 名條 */
 
-._4mq3 ._55ln,
-._55ob {
+._4mq3 ._55ln, ._55ob {
   background: rgba(255, 255, 255, 0.65) !important;
 }
 /* >> 縮小版聊天室 >> 名條 >> 大頭貼 */
@@ -341,8 +329,7 @@ img._s0._7lw._rv.img {
 }
 /* >> 動態牆 >> 頭像 */
 
-img._s0._44ma.img,
-img._bth.img {
+img._s0._44ma.img, img._bth.img {
   border-radius: 1000px !important;
 }
 *[data-hovercard] img {
@@ -351,8 +338,7 @@ img._bth.img {
 }
 /* >> 動態牆 >> 頭像 >> 邊框 */
 
-._3hvt:after,
-._38vo:after {
+._3hvt:after, ._38vo:after {
   content: none !important;
 }
 /* >> 社團、應用程式列表 */
@@ -378,8 +364,7 @@ img._bth.img {
 #globalContainer {
   background: url(https://goo.gl/92mQPc) !important;
 }
-._ksg,
-._1rs {
+._ksg, ._1rs {
   background: url(https://goo.gl/92mQPc) !important;
   border: none !important;
 }
@@ -390,9 +375,7 @@ img._bth.img {
 }
 /* >> 名條 >> 選取中、hover */
 
-.wmMasterView ._k-:hover,
-.wmMasterView ._k-._kv,
-.wmMasterView ._k-._kx {
+.wmMasterView ._k-:hover, .wmMasterView ._k-._kv, .wmMasterView ._k-._kx {
   /*   background: rgba(255, 168, 202, 0.7) !important;
   border: none !important; */
   
@@ -405,10 +388,7 @@ img._bth.img {
 }
 /* >> 名條 >> 文字 */
 
-._kv,
-._l4,
-._kv ._l1,
-._kv ._l3 {
+._kv, ._l4, ._kv ._l1, ._kv ._l3 {
   color: black !important;
 }
 /* >> 中央 >> 背景 */
@@ -426,14 +406,12 @@ img._bth.img {
   border-top-right-radius: 20px !important;
   background: rgb(255, 192, 203) !important;
 }
-.fbNubButton:before,
-._5q5b .fbNubButton:after {
+.fbNubButton:before, ._5q5b .fbNubButton:after {
   content: none !important;
 }
 /* >> 名條 >> 背景 */
 
-._20fw ._50mz.highlightTab .fbNubButton,
-._20fw .fbNubFlyoutTitlebar {
+._20fw ._50mz.highlightTab .fbNubButton, ._20fw .fbNubFlyoutTitlebar {
   background: rgb(255, 192, 203) !important;
   border-color: transparent !important;
 }
@@ -481,8 +459,7 @@ a:hover .fbChatTab .funhouse {
 }
 /* >> 視窗 >> 訊息 >> 外框（自己的訊息）*/
 
-._1nc6 ._5w1r,
-._1nc6 ._3okg:before {
+._1nc6 ._5w1r, ._1nc6 ._3okg:before {
   background: none !important;
   border-radius: 8px !important;
   box-shadow: 0px 0px 10px 0px rgb(255, 185, 211) inset !important;
@@ -503,8 +480,7 @@ div#pagelet_timeline_recent {
 /******************************************************************* 其他類別 *******************************************************************/
 /* 按鈕 >> 加朋友 */
 
-._42ft._4jy0._11b._4jy3._4jy1.selected._51sy,
-._42ft._4jy0.FriendRequestAdd.addButton._4jy3._4jy1.selected._51sy {
+._42ft._4jy0._11b._4jy3._4jy1.selected._51sy, ._42ft._4jy0.FriendRequestAdd.addButton._4jy3._4jy1.selected._51sy {
   background: rgb(255, 132, 177) !important;
   border-radius: 8px !important;
   border: none !important;
@@ -519,12 +495,7 @@ div#pagelet_timeline_recent {
 }
 /* 按鈕 >> 發文相關 >> 發佈 */
 
-button._42ft._4jy0._ej1._4jy3._4jy1.selected._51sy,
-button._1mf7._4jy0._4jy3._4jy1._51sy.selected._42ft,
-.openToggler>._5vto,
-.openToggler>._5vto:hover,
-.openToggler>._5vto:focus,
-.openToggler>._5vto:active {
+button._42ft._4jy0._ej1._4jy3._4jy1.selected._51sy, button._1mf7._4jy0._4jy3._4jy1._51sy.selected._42ft, .openToggler>._5vto, .openToggler>._5vto:hover, .openToggler>._5vto:focus, .openToggler>._5vto:active {
   background: rgb(255, 132, 177) !important;
   /*   box-shadow: #FFB9D8 0 2px 5px 1px, rgba(139, 139, 139, 0.48) 0 1px 1px 1px !important; */
   
