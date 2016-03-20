@@ -195,134 +195,154 @@
   border-bottom-left-radius: 20px !important;
   border-bottom-right-radius: 20px !important;
 }
-}
 
 /**************************************************************** 右方聊天室 **************************************************************/
 /* >> 背景 >> 資料loading失敗、正在loading時 */
 
-._1ht9, .fbChatSidebar { background: url(https://goo.gl/RkTRIn) !important;
+._1ht9, .fbChatSidebar {
+  background: url(https://goo.gl/RkTRIn) !important;
   background-position: -17px 0px !important;
   border-left: none !important;
   box-shadow: none !important;
 }
 /* >> 背景 >> loading成功背景，其實跟上面一樣 */
 
-._51x_ { background: url(https://goo.gl/RkTRIn) !important;
+._51x_ {
+  background: url(https://goo.gl/RkTRIn) !important;
   background-position: -17px 0px !important;
 }
 /* >> 背景 >> 遮罩 */
 
-.fbChatSidebarBody { background: rgba(255, 255, 255, 0.65) !important;
+.fbChatSidebarBody {
+  background: rgba(255, 255, 255, 0.65) !important;
 }
 /* >> 名條 >> hover效果 */
 
-._5pr2 .fbChatOrderedList ._42fz a:hover { box-shadow: 0px 0px 29px 8px rgb(255, 185, 211) !important;
+._5pr2 .fbChatOrderedList ._42fz a:hover {
+  box-shadow: 0px 0px 29px 8px rgb(255, 185, 211) !important;
   background: rgba(255, 192, 203, 0.8) !important;
 }
-
-._5pr2 ._42fz a:hover { border-color: rgb(255, 255, 255) !important;
+._5pr2 ._42fz a:hover {
+  border-color: rgb(255, 255, 255) !important;
 }
 /* >> 名條 >> 間距 */
 
-._5pr2 ._55ln { border-bottom: 2px solid transparent !important;
+._5pr2 ._55ln {
+  border-bottom: 2px solid transparent !important;
   border-top: 2px solid transparent !important;
   border-radius: 40px !important;
 }
 /* >> 名條 >> 大頭貼 */
 
-.fbChatSidebarBody ._56p9 { border-radius: 1000px !important;
+.fbChatSidebarBody ._56p9 {
+  border-radius: 1000px !important;
 }
-
-._5pr2 ._56p9 { overflow: hidden !important;
+._5pr2 ._56p9 {
+  overflow: hidden !important;
 }
 /* >> 名條 >> 資訊浮動視窗 >> 外框 */
 
-._53ii ._53ij { border: 3px double #FFD2E5 !important;
+._53ii ._53ij {
+  border: 3px double #FFD2E5 !important;
   border-radius: 10px !important;
   box-shadow: 0 0 0 1px rgba(255, 101, 161, 0.2), 0 0 6px 3px rgba(255, 143, 183, 0.49) !important;
 }
 /* >> 名條 >> 資訊浮動視窗 >> 背景 */
 
-._7ll { background: rgb(255, 255, 238) !important;
+._7ll {
+  background: rgb(255, 255, 238) !important;
   box-shadow: pink 0 0 10px 2px inset;
   border-radius: 7px;
 }
 /* >> 名條 >> 資訊浮動視窗 >> 內部連結hover event */
 
-._4o-g:hover { background-color: transparent !important;
+._4o-g:hover {
+  background-color: transparent !important;
 }
-
-._7lu td[rowspan="2"] { display: table-cell !important;
+._7lu td[rowspan="2"] {
+  display: table-cell !important;
   vertical-align: middle;
 }
-
-img._s0._7lw._rv.img { border-radius: 10px !important;
+img._s0._7lw._rv.img {
+  border-radius: 10px !important;
 }
 /* >> 搜尋欄 >> 背景*/
 
-._5pr2 ._56p9:after { border: none !important;
+._5pr2 ._56p9:after {
+  border: none !important;
 }
-
-.fbChatTypeahead ._5iwm ._58al { background: linear-gradient(#fff, #FFC6D7 10%) !important;
+.fbChatTypeahead ._5iwm ._58al {
+  background: linear-gradient(#fff, #FFC6D7 10%) !important;
   box-shadow: 0px -10px 20px 0 #FFFFFF !important;
 }
-
-._4oes { border-top: none !important;
+._4oes {
+  border-top: none !important;
 }
 /* >> 搜尋欄 >> 查無結果 */
 
-.fbChatTypeahead ._5t4c { position: relative;
+.fbChatTypeahead ._5t4c {
+  position: relative;
   background: #F5FFC7;
   z-index: 1;
 }
 /* >> 縮小版聊天室 >> header */
 
-._4mq3 .fbNubFlyoutTitlebar { background: rgb(255, 192, 203) !important;
+._4mq3 .fbNubFlyoutTitlebar {
+  background: rgb(255, 192, 203) !important;
   border-color: transparent !important;
 }
 /* >> 縮小版聊天室 >> 背景 */
 
-._4mq3 .uiScrollableArea { background: url(https://goo.gl/RkTRIn) !important;
+._4mq3 .uiScrollableArea {
+  background: url(https://goo.gl/RkTRIn) !important;
   background-position: -17px 0px !important;
 }
 /* >> 縮小版聊天室 >> 名條 */
 
-._4mq3 ._55ln, ._55ob { background: rgba(255, 255, 255, 0.65) !important;
+._4mq3 ._55ln, ._55ob {
+  background: rgba(255, 255, 255, 0.65) !important;
 }
 /* >> 縮小版聊天室 >> 名條 >> 大頭貼 */
 
-._55lp ._56p9 ._55lt { border-radius: 1000px !important;
+._55lp ._56p9 ._55lt {
+  border-radius: 1000px !important;
   overflow: hidden !important;
 }
 /* >> 縮小版聊天室 >> 名條 >> 大頭貼 >> 邊框 */
 
-._56p9:after { content: none !important;
+._56p9:after {
+  content: none !important;
 }
 
 /******************************************************************* 整體畫面 ****************************************************************/
 /* >> 背景 */
 
-._li { background: url(https://goo.gl/92mQPc) !important;
+._li {
+  background: url(https://goo.gl/92mQPc) !important;
 }
 /* >> 動態牆 >> 背景 */
 
-#contentCol { background: transparent !important;
+#contentCol {
+  background: transparent !important;
 }
 /* >> 動態牆 >> 頭像 */
 
-img._s0._44ma.img, img._bth.img { border-radius: 1000px !important;
+img._s0._44ma.img, img._bth.img {
+  border-radius: 1000px !important;
 }
-
-*[data-hovercard] img { border-color: transparent !important;
+*[data-hovercard] img {
+  border-color: transparent !important;
   border-radius: 1000px !important;
 }
 /* >> 動態牆 >> 頭像 >> 邊框 */
 
-._3hvt:after, ._38vo:after { content: none !important;
+._3hvt:after, ._38vo:after {
+  content: none !important;
 }
 /* >> 社團、應用程式列表 */
 
-._5vb_ ._55y4 ._bui ._5afe:hover { box-shadow: 0px 0px 29px 8px rgb(255, 185, 211) !important;
+._5vb_ ._55y4 ._bui ._5afe:hover {
+  box-shadow: 0px 0px 29px 8px rgb(255, 185, 211) !important;
   background: rgba(255, 192, 203, 0.8) !important;
   border-bottom: 2px solid transparent !important;
   border-top: 2px solid transparent !important;
@@ -332,21 +352,24 @@ img._s0._44ma.img, img._bth.img { border-radius: 1000px !important;
 /* 發文區塊 */
 /* */
 
-._4-u8 { background-color: rgba(255, 255, 255, 0.75) !important;
+._4-u8 {
+  background-color: rgba(255, 255, 255, 0.75) !important;
 }
 
 /***************************************************************** 全部訊息畫面 *******************************************************************/
 /* >> 背景 */
 
-#globalContainer { background: url(https://goo.gl/92mQPc) !important;
+#globalContainer {
+  background: url(https://goo.gl/92mQPc) !important;
 }
-
-._ksg, ._1rs { background: url(https://goo.gl/92mQPc) !important;
+._ksg, ._1rs {
+  background: url(https://goo.gl/92mQPc) !important;
   border: none !important;
 }
 /* >> 搜尋欄 >> 背景 */
 
-._3j5 { background-color: rgb(250, 255, 209);
+._3j5 {
+  background-color: rgb(250, 255, 209);
 }
 /* >> 名條 >> 選取中、hover */
 
@@ -363,32 +386,37 @@ img._s0._44ma.img, img._bth.img { border-radius: 1000px !important;
 }
 /* >> 名條 >> 文字 */
 
-._kv, ._l4, ._kv ._l1, ._kv ._l3 { color: black !important;
+._kv, ._l4, ._kv ._l1, ._kv ._l3 {
+  color: black !important;
 }
 /* >> 中央 >> 背景 */
 
-._2nj { background: rgba(255, 255, 255, 0.5) !important;
+._2nj {
+  background: rgba(255, 255, 255, 0.5) !important;
 }
 
 /***************************************************************** 下方聊天室 *****************************************************************/
 /* ????? */
 
-.fbNubButton { text-align: center !important;
+.fbNubButton {
+  text-align: center !important;
   border-top-left-radius: 20px !important;
   border-top-right-radius: 20px !important;
   background: rgb(255, 192, 203) !important;
 }
-
-.fbNubButton:before, ._5q5b .fbNubButton:after { content: none !important;
+.fbNubButton:before, ._5q5b .fbNubButton:after {
+  content: none !important;
 }
 /* >> 名條 >> 背景 */
 
-._20fw ._50mz.highlightTab .fbNubButton, ._20fw .fbNubFlyoutTitlebar { background: rgb(255, 192, 203) !important;
+._20fw ._50mz.highlightTab .fbNubButton, ._20fw .fbNubFlyoutTitlebar {
+  background: rgb(255, 192, 203) !important;
   border-color: transparent !important;
 }
 /* >> 名條 >> 姓名 */
 
-._50mz .fbChatTab .name { font-weight: 700 !important;
+._50mz .fbChatTab .name {
+  font-weight: 700 !important;
   letter-spacing: .2em;
   color: #FFFFFF !important;
   text-align: center !important;
@@ -397,65 +425,76 @@ img._s0._44ma.img, img._bth.img { border-radius: 1000px !important;
 }
 /* >> 名條 >> 容器（與關閉相關） */
 
-.clearfix .fbChatTab { position: relative !important;
+.clearfix .fbChatTab {
+  position: relative !important;
 }
 /* >> 名條 >> 右上關閉 */
 
-a:hover .fbChatTab .funhouse { position: absolute !important;
+a:hover .fbChatTab .funhouse {
+  position: absolute !important;
   right: 0 !important;
 }
 /* >> 名條 >> 位讀閃爍效果（好像沒用） */
 
-._50mz.highlightTitle .fbNubFlyoutTitlebar { background: rgb(255, 157, 193) !important;
+._50mz.highlightTitle .fbNubFlyoutTitlebar {
+  background: rgb(255, 157, 193) !important;
 }
-
-.fbNubFlyoutTitlebar:hover { background: rgb(255, 157, 193) !important;
+.fbNubFlyoutTitlebar:hover {
+  background: rgb(255, 157, 193) !important;
 }
-
-._50mz.focusedTab.titlebar { background: rgb(255, 157, 193) !important;
+._50mz.focusedTab.titlebar {
+  background: rgb(255, 157, 193) !important;
 }
 /* >> 視窗 >> 背景 */
 
-.fbDockChatTabFlyout .fbNubFlyoutBody { background-color: rgb(255, 237, 243) !important;
+.fbDockChatTabFlyout .fbNubFlyoutBody {
+  background-color: rgb(255, 237, 243) !important;
 }
 /* >> 視窗 >> 訊息 >> 外框 */
 
-._5w1r { border: 5px double rgba(255, 76, 76, 0.18) !important;
+._5w1r {
+  border: 5px double rgba(255, 76, 76, 0.18) !important;
 }
 /* >> 視窗 >> 訊息 >> 外框（自己的訊息）*/
 
-._1nc6 ._5w1r, ._1nc6 ._3okg:before { background: none !important;
+._1nc6 ._5w1r, ._1nc6 ._3okg:before {
+  background: none !important;
   border-radius: 8px !important;
   box-shadow: 0px 0px 10px 0px rgb(255, 185, 211) inset !important;
 }
 /* */
 
-._5w-6 { background-color: rgb(255, 237, 243) !important;
+._5w-6 {
+  background-color: rgb(255, 237, 243) !important;
   color: rgba(255, 109, 142, 0.74) !important;
 }
 
 /***************************************************************** 動態牆 *********************************************************************/
 
-div#pagelet_timeline_recent { background: transparent;
+div#pagelet_timeline_recent {
+  background: transparent;
 }
 
 /******************************************************************* 其他類別 *******************************************************************/
 /* 按鈕 >> 加朋友 */
 
-._42ft._4jy0._11b._4jy3._4jy1.selected._51sy, ._42ft._4jy0.FriendRequestAdd.addButton._4jy3._4jy1.selected._51sy { background: rgb(255, 132, 177) !important;
+._42ft._4jy0._11b._4jy3._4jy1.selected._51sy, ._42ft._4jy0.FriendRequestAdd.addButton._4jy3._4jy1.selected._51sy {
+  background: rgb(255, 132, 177) !important;
   border-radius: 8px !important;
   border: none !important;
   box-shadow: none !important;
 }
 /* 按鈕 >> 發文相關 */
 
-._4jy0 { border-radius: 12px !important;
+._4jy0 {
+  border-radius: 12px !important;
   border: none !important;
   box-shadow: none !important;
 }
 /* 按鈕 >> 發文相關 >> 發佈 */
 
-button._42ft._4jy0._ej1._4jy3._4jy1.selected._51sy, button._1mf7._4jy0._4jy3._4jy1._51sy.selected._42ft, .openToggler>._5vto, .openToggler>._5vto:hover, .openToggler>._5vto:focus, .openToggler>._5vto:active { background: rgb(255, 132, 177) !important;
+button._42ft._4jy0._ej1._4jy3._4jy1.selected._51sy, button._1mf7._4jy0._4jy3._4jy1._51sy.selected._42ft, .openToggler>._5vto, .openToggler>._5vto:hover, .openToggler>._5vto:focus, .openToggler>._5vto:active {
+  background: rgb(255, 132, 177) !important;
   /*   box-shadow: #FFB9D8 0 2px 5px 1px, rgba(139, 139, 139, 0.48) 0 1px 1px 1px !important; */
   
   box-shadow: #8D8D8D 0 2px 4px -1px !important;
@@ -463,7 +502,8 @@ button._42ft._4jy0._ej1._4jy3._4jy1.selected._51sy, button._1mf7._4jy0._4jy3._4j
 }
 /* 按鈕 >> 發文相關 >> 分享權限 >> 點擊後 */
 
-._42ft._4jy0._55pi._5vto._55_p._2agf._p._4jy3._517h._51sy { font-weight: 400 !important;
+._42ft._4jy0._55pi._5vto._55_p._2agf._p._4jy3._517h._51sy {
+  font-weight: 400 !important;
   text-shadow: none !important;
   background: #F8FFBF !important;
   color: #4c4c4c !important;
@@ -473,37 +513,43 @@ button._42ft._4jy0._ej1._4jy3._4jy1.selected._51sy, button._1mf7._4jy0._4jy3._4j
 }
 /* 按鈕 >> 發文相關 >> 分享權限 >> 點擊前 */
 
-._6a.uiPopover:not(.selected) ._42ft._4jy0._55pi._5vto._55_p._2agf._p._4jy3._517h._51sy { background: #F8FFBF;
+._6a.uiPopover:not(.selected) ._42ft._4jy0._55pi._5vto._55_p._2agf._p._4jy3._517h._51sy {
+  background: #F8FFBF;
   /*   box-shadow: #FFADD9 0 2px 4px 0px, rgba(139, 139, 139, 0.48) 0 1px 2px 0px !important; */
   
   box-shadow: #A3A3A3 0 2px 4px -1px !important;
 }
 /* 按鈕 >> 發文相關 >> 分享權限 >> 點擊前下三角 */
 
-.selected .sp_RBnnTl7hYum.sx_456447 { background-position: -77px -392px !important;
+.selected .sp_RBnnTl7hYum.sx_456447 {
+  background-position: -77px -392px !important;
 }
 /* 按鈕 >> 發文相關 >> 分享權限 >> 彈出選單 >> 公開 */
 
-.sp_NiKc0wWc6LP { background-image: url(https://goo.gl/6NLD6I) !important;
+.sp_NiKc0wWc6LP {
+  background-image: url(https://goo.gl/6NLD6I) !important;
   background-size: cover !important;
 }
-
-.sp_NiKc0wWc6LP.sx_febe76 { background-position: 0 0 !important;
+.sp_NiKc0wWc6LP.sx_febe76 {
+  background-position: 0 0 !important;
 }
 /* 按鈕 >> 發文相關 >> 分享權限 >> 彈出選單 >> 朋友 */
 
-.sp_CVJEvaKwTI4 { background-image: url(https://goo.gl/kaJA9E) !important;
+.sp_CVJEvaKwTI4 {
+  background-image: url(https://goo.gl/kaJA9E) !important;
   background-size: cover !important;
 }
-
-.sp_CVJEvaKwTI4.sx_faaee5 { background-position: 0 0 !important;
+.sp_CVJEvaKwTI4.sx_faaee5 {
+  background-position: 0 0 !important;
 }
 /* 按鈕 >> 發文相關 >> 分享權限 >> 彈出選單 >> 僅限本人 */
 
-i.mrs.img.sp_CVJEvaKwTI4.sx_eed554 { background-image: url(https://goo.gl/XMaAJu) !important;
+i.mrs.img.sp_CVJEvaKwTI4.sx_eed554 {
+  background-image: url(https://goo.gl/XMaAJu) !important;
   background-position: 0 0 !important;
 }
 /* 按鈕 >> 廣告 >> */
 
-button._42ft._4jy0._4jy3._4jy1.selected._51sy { background: rgb(255, 132, 177) !important;
+button._42ft._4jy0._4jy3._4jy1.selected._51sy {
+  background: rgb(255, 132, 177) !important;
 }
