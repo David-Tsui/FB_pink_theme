@@ -44,7 +44,7 @@
 }
 /* >> 姓名、首頁、尋找名字 >> 字體、hover效果 */
 
-._2s1x ._2s25 {
+._2s1x ._2s25, ._1ayn {
   text-shadow: 0px 0px 2px rgba(0, 0, 0, .8) !important;
   font-weight: 400 !important;
   font-size: .85rem !important;
@@ -57,20 +57,28 @@
 }
 /* >> 姓名、首頁、尋找名字 >> 中間分隔線 */
 
-._2s24::before {
+._2s24::before, ._55bh:after {
   content: none !important;
 }
 /* >> 姓名、首頁、尋找名字 >> padding */
-
+/* padding: 1px 6px !important; */
 ._4q39 {
   margin: 0 !important;
   padding: 8px 0px !important;
 }
+
+._3zm-:hover a, ._3zm- a:focus, ._3zm- a._2myk {
+  padding: 1px 12px 0 12px !important;
+}
 /* >> 姓名、首頁、尋找名字 >> 姓名 >> 姓名左方之大頭貼 */
 
-._1k69 {
+._1k69, ._s0._2dpc.img {
   border: none !important;
   border-radius: 20px !important;
+}
+
+._2dpe:after, ._2dpe:hover::after {
+  content: none !important;
 }
 /* >> 姓名、首頁、尋找名字 >> 首頁 >> 通知數字 */
 
