@@ -1,11 +1,17 @@
+@-moz-document url-prefix("https://www.facebook.com/"), url-prefix("https://app.facebook.com/") {
 /**************************************************************** 導覽列 *********************************************************************/
 /* >> 背景 */
 
-._2s1x ._2s1y {
+._2s1x ._2s1y, ._4f7n {
   background: rgb(255, 185, 205) !important;
   border-bottom: none !important;
   box-shadow: none !important;
 }
+
+._4f7n:after {
+  content: none !important;
+}
+
 /* >> 左上fb icon  */
 
 ._2md {
