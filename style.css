@@ -6,11 +6,9 @@
   border-bottom: none !important;
   box-shadow: none !important;
 }
-
 ._4f7n:after {
   content: none !important;
 }
-
 /* >> 左上fb icon  */
 
 ._2md {
@@ -200,6 +198,7 @@
   border-bottom-left-radius: 20px !important;
   border-bottom-right-radius: 20px !important;
 }
+}
 
 /**************************************************************** 右方聊天室 **************************************************************/
 /* >> 背景 >> 資料loading失敗、正在loading時 */
@@ -341,7 +340,7 @@ img._s0._44ma.img, img._bth.img {
 }
 /* >> 動態牆 >> 頭像 >> 邊框 */
 
-._3hvt:after, ._38vo:after {
+._3hvt:after, ._38vo:after, ._5v9k .UFIAddComment .UFIImageBlockImage:after, ._5v9k .UFIComment .UFIImageBlockImage:after {
   content: none !important;
 }
 /* >> 社團、應用程式列表 */
