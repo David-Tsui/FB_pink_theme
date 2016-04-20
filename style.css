@@ -27,7 +27,7 @@
   border-radius: 0 25px 25px 0 !important;
   background: #FF81A2 !important;
   display: flex !important;
-  justify-content: flex-end !important;
+  padding-left: 1.8rem !important;
   width: 64px !important;
 }
 /* >> 搜尋欄 >> button為焦點 */
@@ -38,9 +38,10 @@
   transition: all .5s !important;
 }
 .__wu .roundedBox .uiTypeahead .searchIcon {
-  background-position: -19px -60px !important;
-  padding-right: 24px !important;
+  background-position: -46px -190px !important;
+  padding-right: 15px !important;
   position: static !important;
+  background-size: 82px !important;
 }
 /* >> 姓名、首頁、尋找名字 >> 字體、hover效果 */
 
@@ -82,7 +83,7 @@
 }
 /* >> 姓名、首頁、尋找名字 >> 首頁 >> 通知數字 */
 
-._4u91 {
+._4u91, ._5ahz {
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
@@ -250,6 +251,10 @@
   border-radius: 1000px !important;
 }
 ._5pr2 ._56p9 {
+  overflow: hidden !important;
+}
+._55lq {
+  border-radius: 1000px !important;
   overflow: hidden !important;
 }
 /* >> 名條 >> 資訊浮動視窗 >> 外框 */
