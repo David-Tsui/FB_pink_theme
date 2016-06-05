@@ -1,3 +1,4 @@
+@-moz-document regexp("(https:\\/\\/)(app|www)(.facebook.com)[\\w\\W]*") {
 /**************************************************************** 導覽列 *********************************************************************/
 /* >> 背景 */
 
@@ -210,7 +211,9 @@
   border-bottom-left-radius: 20px !important;
   border-bottom-right-radius: 20px !important;
 }
+}
 
+@-moz-document regexp("(https:\\/\\/)(app|www)(.facebook.com)[\\w\\W]*") {
 /**************************************************************** 右方聊天室 **************************************************************/
 /* >> 背景 >> 資料loading失敗、正在loading時 */
 
@@ -223,14 +226,21 @@
 /* >> 背景 >> loading成功背景，其實跟上面一樣 */
 
 ._51x_ {
-  background: url(https://goo.gl/RkTRIn) !important;
-  background-position: -17px 0px !important;
+  background-image: url(https://goo.gl/RkTRIn) !important;
+  background-size: 99% !important;
+  background-position: 51px 0px !important;
 }
 /* >> 背景 >> 遮罩 */
 
 .fbChatSidebarBody {
   background: rgba(255, 255, 255, 0.65) !important;
 }
+/* >> 背景 >> 與名條間隙 */
+._5pr2 .fbSidebarGripper {
+  height: 0 !important;
+}
+
+
 /* >> 名條 >> hover效果 */
 
 ._5pr2 .fbChatOrderedList ._42fz a:hover {
@@ -332,7 +342,9 @@ img._s0._7lw._rv.img {
 ._56p9:after {
   content: none !important;
 }
+}
 
+@-moz-document regexp("(https:\\/\\/)(app|www)(.facebook.com)[\\w\\W]*") {
 /******************************************************************* 整體畫面 ****************************************************************/
 /* >> 背景 */
 
@@ -381,7 +393,9 @@ img._s0._44ma.img, img._bth.img {
 ._4-u8 {
   background-color: rgba(255, 255, 255, 0.85) !important;
 }
+}
 
+@-moz-document regexp("(https:\\/\\/)(app|www)(.facebook.com)[\\w\\W]*") {
 /***************************************************************** 全部訊息畫面 *******************************************************************/
 /* >> 背景 */
 
@@ -420,7 +434,9 @@ img._s0._44ma.img, img._bth.img {
 ._2nj {
   background: rgba(255, 255, 255, 0.5) !important;
 }
+}
 
+@-moz-document regexp("(https:\\/\\/)(app|www)(.facebook.com)[\\w\\W]*") {
 /***************************************************************** 下方聊天室 *****************************************************************/
 /* ????? */
 
@@ -494,13 +510,17 @@ a:hover .fbChatTab .funhouse {
   background-color: rgb(255, 237, 243) !important;
   color: rgba(255, 109, 142, 0.74) !important;
 }
+}
 
+@-moz-document regexp("(https:\\/\\/)(app|www)(.facebook.com)[\\w\\W]*") {
 /***************************************************************** 動態牆 *********************************************************************/
 
 div#pagelet_timeline_recent {
   background: transparent;
 }
+}
 
+@-moz-document regexp("(https:\\/\\/)(app|www)(.facebook.com)[\\w\\W]*") {
 /******************************************************************* 其他類別 *******************************************************************/
 /* 按鈕 >> 加朋友 */
 
@@ -578,4 +598,53 @@ i.mrs.img.sp_CVJEvaKwTI4.sx_eed554 {
 
 button._42ft._4jy0._4jy3._4jy1.selected._51sy {
   background: rgb(255, 132, 177) !important;
+}
+}
+
+@-moz-document regexp("(https:\\/\\/)(app|www)(.facebook.com)[\\w\\W]*") {
+/* Let's get this party started */
+::-webkit-scrollbar {
+  width: 10px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+/*   background: #fff; */
+  background: -webkit-linear-gradient(rgb(255, 185, 205) 43px, #ccc 43px, #fff 44px);
+  background: linear-gradient(rgb(255, 185, 205) 43px, #ccc 43px, #fff 44px);
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+/*   -webkit-border-radius: 0 0 25px 25px;
+  border-radius: 0 0 25px 25px; */
+  background: rgba(255, 185, 205, .5); 
+  -webkit-box-shadow: 0 4px 6px 0 rgb(255,255,255); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(255, 185, 205, .5); 
+}
+
+
+
+._2v5j ::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+._2v5j ::-webkit-scrollbar-track {
+  background: transparent;
+/*   background: rgba(255, 185, 205, .5);  */
+  -webkit-box-shadow: 0 4px 6px 0 rgb(255,255,255); 
+}
+
+._2v5j ::-webkit-scrollbar-thumb {
+/*   -webkit-border-radius: 0 0 25px 25px;
+  border-radius: 0 0 25px 25px; */
+  background: rgba(255, 185, 205, .5); 
+  -webkit-box-shadow: 0 4px 6px 0 rgb(255,255,255); 
+}
+._2v5j ::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(255, 185, 205, .5); 
+}
 }
