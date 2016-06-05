@@ -11,11 +11,11 @@
 }
 /* >> 左上fb icon  */
 
-._2md {
+/* ._2md {
   background-position: -9px -39px !important;
   height: 25px !important;
   width: 25px !important;
-}
+} */
 /* >> 搜尋欄 >> 容器 */
 
 .uiTypeahead {
@@ -38,10 +38,13 @@
   transition: all .5s !important;
 }
 .__wu .roundedBox .uiTypeahead .searchIcon {
-  background-position: -46px -190px !important;
-  padding-right: 15px !important;
-  position: static !important;
-  background-size: 82px !important;
+  background-image: url(https://goo.gl/nYMsjL) !important;
+  background-size: 16px  !important;
+  background-position: center !important;
+  width: 18px !important;
+  height: 18px !important;
+  top: 4px !important;
+  left: 18px !important;
 }
 /* >> 姓名、首頁、尋找名字 >> 字體、hover效果 */
 
@@ -336,6 +339,13 @@ img._s0._7lw._rv.img {
 ._li {
   background: url(https://goo.gl/92mQPc) !important;
 }
+
+/* >> 動態牆 >> 邊框 */
+._4-u2 {
+  border: 2px double !important;
+  border-color: rgba(255, 165, 191, 0.35) !important;
+  box-shadow: 4px 4px 5px -2px rgba(255, 117, 161, 0.4) !important;
+}
 /* >> 動態牆 >> 背景 */
 
 #contentCol {
@@ -357,7 +367,7 @@ img._s0._44ma.img, img._bth.img {
 }
 /* >> 社團、應用程式列表 */
 
-._5vb_ ._55y4 ._bui ._5afe:hover {
+._5vb_ ._55y4 ._bui ._5afe:hover, .fbxWelcomeBoxSmall .fbxWelcomeBoxSmallRow:hover {
   box-shadow: 0px 0px 29px 8px rgb(255, 185, 211) !important;
   background: rgba(255, 192, 203, 0.8) !important;
   border-bottom: 2px solid transparent !important;
@@ -369,7 +379,7 @@ img._s0._44ma.img, img._bth.img {
 /* */
 
 ._4-u8 {
-  background-color: rgba(255, 255, 255, 0.75) !important;
+  background-color: rgba(255, 255, 255, 0.85) !important;
 }
 
 /***************************************************************** 全部訊息畫面 *******************************************************************/
@@ -437,7 +447,7 @@ img._s0._44ma.img, img._bth.img {
   color: #FFFFFF !important;
   text-align: center !important;
   margin-left: -4px !important;
-  text-shadow: 0px 0px 2px rgba(0, 0, 0, .8) !important;
+  text-shadow: 0px 0px 2px rgb(255, 31, 93), 0px 0px 2px rgb(255, 31, 93), 0px 0px 2px rgb(255, 73, 123), 0px 0px 2px rgb(255, 119, 157), 0px 0px 2px rgb(255, 255, 255)!important;
 }
 /* >> 名條 >> 容器（與關閉相關） */
 
