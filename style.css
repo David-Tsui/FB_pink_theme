@@ -1,3 +1,4 @@
+
 /**************************************************************** 導覽列 *********************************************************************/
 /* >> 背景 */
 
@@ -211,6 +212,7 @@
   border-bottom-right-radius: 20px !important;
 }
 
+
 /**************************************************************** 右方聊天室 **************************************************************/
 /* >> 背景 >> 資料loading失敗、正在loading時 */
 
@@ -340,6 +342,7 @@ img._s0._7lw._rv.img {
   content: none !important;
 }
 
+
 /******************************************************************* 整體畫面 ****************************************************************/
 /* >> 背景 */
 
@@ -372,6 +375,11 @@ img._s0._44ma.img, img._bth.img {
 ._3hvt:after, ._38vo:after, ._5v9k .UFIAddComment .UFIImageBlockImage:after, ._5v9k .UFIComment .UFIImageBlockImage:after {
   content: none !important;
 }
+
+/* >> 動態牆 >> 留言 >> 最新追蹤留言 */
+._5vsj .UFIRow.UFIUnseenItem:after {
+    background-color: rgb(255, 129, 181) !important;
+}
 /* >> 社團、應用程式列表 */
 
 ._5vb_ ._55y4 ._bui ._5afe:hover, .fbxWelcomeBoxSmall .fbxWelcomeBoxSmallRow:hover {
@@ -388,6 +396,7 @@ img._s0._44ma.img, img._bth.img {
 ._4-u8 {
   background-color: rgba(255, 255, 255, 0.85) !important;
 }
+
 
 /***************************************************************** 全部訊息畫面 *******************************************************************/
 /* >> 背景 */
@@ -428,6 +437,7 @@ img._s0._44ma.img, img._bth.img {
   background: rgba(255, 255, 255, 0.5) !important;
 }
 
+
 /***************************************************************** 下方聊天室 *****************************************************************/
 /* ????? */
 
@@ -448,12 +458,13 @@ img._s0._44ma.img, img._bth.img {
 }
 /* >> 名條 >> 姓名 */
 
-._50mz .fbChatTab .name {
+._50mz .fbChatTab .name, ._3__- ._50mz .titlebar .titlebarText {
   font-weight: 700 !important;
   letter-spacing: .2em;
   color: #FFFFFF !important;
   text-align: center !important;
-  margin-left: -4px !important;
+  margin-left: 3px !important;
+  text-decoration: none !important;
   text-shadow: 0px 0px 2px rgb(255, 31, 93), 0px 0px 2px rgb(255, 31, 93), 0px 0px 2px rgb(255, 73, 123), 0px 0px 2px rgb(255, 119, 157), 0px 0px 2px rgb(255, 255, 255)!important;
 }
 /* >> 名條 >> 容器（與關閉相關） */
@@ -485,15 +496,17 @@ a:hover .fbChatTab .funhouse {
 }
 /* >> 視窗 >> 訊息 >> 外框 */
 
-._5w1r {
+._5w1r, ._3__- ._1nc7 ._5w1r {
+  background: rgba(255,255,255,.95) !important;
   border: 5px double rgba(255, 76, 76, 0.18) !important;
 }
 /* >> 視窗 >> 訊息 >> 外框（自己的訊息）*/
 
-._1nc6 ._5w1r, ._1nc6 ._3okg:before {
+._1nc6 ._5w1r, ._1nc6 ._3okg:before, ._3__- ._1nc6 ._d97 {
   background: none !important;
   border-radius: 8px !important;
   box-shadow: 0px 0px 10px 0px rgb(255, 185, 211) inset !important;
+  color: #444 !important;
 }
 /* */
 
@@ -502,11 +515,13 @@ a:hover .fbChatTab .funhouse {
   color: rgba(255, 109, 142, 0.74) !important;
 }
 
+
 /***************************************************************** 動態牆 *********************************************************************/
 
 div#pagelet_timeline_recent {
   background: transparent;
 }
+
 
 /******************************************************************* 其他類別 *******************************************************************/
 /* 按鈕 >> 加朋友 */
@@ -586,6 +601,7 @@ i.mrs.img.sp_CVJEvaKwTI4.sx_eed554 {
 button._42ft._4jy0._4jy3._4jy1.selected._51sy {
   background: rgb(255, 132, 177) !important;
 }
+
 
 /* Let's get this party started */
 ::-webkit-scrollbar {
