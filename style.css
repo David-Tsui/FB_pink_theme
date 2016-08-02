@@ -49,7 +49,8 @@
 /* >> 姓名、首頁、尋找名字 >> 字體、hover效果 */
 
 ._2s1x ._2s25, ._1ayn {
-  text-shadow: 0px 0px 2px rgba(0, 0, 0, .8) !important;
+  color: #fff !important;
+  text-shadow: 0 0 2px #222, 0 0 1px #666 !important;
   font-weight: 400 !important;
   font-size: .85rem !important;
 }
@@ -115,7 +116,7 @@
 }
 /* >> 交友、訊息、通知 >> All >> 隱藏原先icon、設定padding */
 
-._3nzl a.jewelButton ._2n_9, ._1z4y a.jewelButton ._2n_9, ._4xi2.east a.jewelButton ._2n_9 {
+._3nzl a.jewelButton ._2n_9, ._1z4y a.jewelButton ._2n_9, ._4xi2.east a.jewelButton ._2n_9, ._4962 ._2n_9 {
   background-image: none !important;
 }
 ._4962 a.jewelButton, ._4962 a.jewelButton:active, ._4962 a.jewelButton:focus, ._4962 a.jewelButton:hover {
@@ -139,11 +140,18 @@
 }
 /* >> 交友、訊息、通知 >> 通知 >> icon */
 
-._4xi2.east a.jewelButton {
+._4xi2.east a.jewelButton, ._4xi2 a.jewelButton ._2n_9 {
   background-image: url(https://goo.gl/gNey7Q) !important;
   background-size: 31px !important;
   background-position: top left !important;
   background-repeat: no-repeat;
+  opacity: 1 !important;
+}
+
+._4962 ._2n_9 {
+  height: 31px !important;
+  padding: 0 !important;
+  width: 29px !important;
 }
 /* >> 隱私權 >> 容器 */
 
@@ -210,7 +218,6 @@
   border-bottom-left-radius: 20px !important;
   border-bottom-right-radius: 20px !important;
 }
-
 
 /**************************************************************** 右方聊天室 **************************************************************/
 /* >> 背景 >> 資料loading失敗、正在loading時 */
@@ -341,7 +348,6 @@ img._s0._7lw._rv.img {
   content: none !important;
 }
 
-
 /******************************************************************* 整體畫面 ****************************************************************/
 /* >> 背景 */
 
@@ -396,7 +402,6 @@ img._s0._44ma.img, img._bth.img {
   background-color: rgba(255, 255, 255, 0.85) !important;
 }
 
-
 /***************************************************************** 全部訊息畫面 *******************************************************************/
 /* >> 背景 */
 
@@ -435,7 +440,6 @@ img._s0._44ma.img, img._bth.img {
 ._2nj {
   background: rgba(255, 255, 255, 0.5) !important;
 }
-
 
 /***************************************************************** 下方聊天室 *****************************************************************/
 /* ????? */
@@ -520,13 +524,11 @@ a:hover .fbChatTab .funhouse {
   color: rgba(255, 109, 142, 0.74) !important;
 }
 
-
 /***************************************************************** 動態牆 *********************************************************************/
 
 div#pagelet_timeline_recent {
   background: transparent;
 }
-
 
 /******************************************************************* 其他類別 *******************************************************************/
 /* 按鈕 >> 加朋友 */
@@ -606,7 +608,6 @@ i.mrs.img.sp_CVJEvaKwTI4.sx_eed554 {
 button._42ft._4jy0._4jy3._4jy1.selected._51sy {
   background: rgb(255, 132, 177) !important;
 }
-
 
 /* Let's get this party started */
 ::-webkit-scrollbar {
