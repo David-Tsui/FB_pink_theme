@@ -66,7 +66,6 @@
   content: none !important;
 }
 /* >> 姓名、首頁、尋找名字 >> padding */
-/* padding: 1px 6px !important; */
 ._4q39 {
   margin: 0 !important;
   padding: 8px 0px !important;
@@ -138,6 +137,11 @@
   background-position: top left !important;
   background-repeat: no-repeat;
 }
+/* >> 交友、訊息、通知 >> 訊息 >> 最近、陌生訊息 */
+._1sdi {
+	background: transparent;
+}
+
 /* >> 交友、訊息、通知 >> 通知 >> icon */
 
 ._4xi2.east a.jewelButton, ._4xi2 a.jewelButton ._2n_9 {
@@ -395,8 +399,16 @@ img._s0._44ma.img, img._bth.img {
   border-radius: 40px !important;
   border-color: rgb(255, 255, 255) !important;
 }
+/* >> 社團、應用程式列表:hover */
+._3m75 .sideNavItem ._5afe::after {
+	background: transparent;
+  border: none;
+}
+._3m75 .sideNavItem .uiSideNavEditButton a, ._3m75 .sideNavItem:hover .uiSideNavEditButton a {
+	background-color: rgba(255, 185, 205, 0.75);
+	border: none;
+}
 /* 發文區塊 */
-/* */
 
 ._4-u8 {
   background-color: rgba(255, 255, 255, 0.85) !important;
@@ -421,8 +433,7 @@ img._s0._44ma.img, img._bth.img {
 
 .wmMasterView ._k-:hover, .wmMasterView ._k-._kv, .wmMasterView ._k-._kx {
   /*   background: rgba(255, 168, 202, 0.7) !important;
-  border: none !important; */
-  
+  border: none !important;*/
   box-shadow: 0px 0px 29px 8px rgb(255, 185, 211) !important;
   background: rgba(255, 192, 203, 0.8) !important;
   border-bottom: 2px solid transparent !important;
@@ -530,6 +541,28 @@ div#pagelet_timeline_recent {
   background: transparent;
 }
 
+/* PO文 >> 邊框 */
+._2yq._2ltu ._4-u2:before {
+	border: 4px double !important;
+	border-color: rgba(255, 165, 191, 0.35) !important;
+}
+
+
+/* 留言區 >> 背景 */
+._3-a6._1blz._5vsj .UFIRow, ._3-a6._1blz._5vsj.UFIContainer .UFIReplyList .UFIRow, ._3-a6._1blz._5vsj._5vsj._5vsj {
+  background: transparent;
+}
+
+/* 留言區 >> 留言 */
+._3-a6._1blz .UFICommentActorAndBody, ._o0o ._3-a6._1blz .UFICommentActorAndBody {
+  background: transparent;;
+}
+._3-a6._4eno .UFICommentActorAndBody {
+  padding: 2px 6px;
+}
+
+
+
 /******************************************************************* 其他類別 *******************************************************************/
 /* 按鈕 >> 加朋友 */
 
@@ -550,8 +583,7 @@ div#pagelet_timeline_recent {
 
 button._42ft._4jy0._ej1._4jy3._4jy1.selected._51sy, button._1mf7._4jy0._4jy3._4jy1._51sy.selected._42ft, .openToggler>._5vto, .openToggler>._5vto:hover, .openToggler>._5vto:focus, .openToggler>._5vto:active {
   background: rgb(255, 132, 177) !important;
-  /*   box-shadow: #FFB9D8 0 2px 5px 1px, rgba(139, 139, 139, 0.48) 0 1px 1px 1px !important; */
-  
+  /*   box-shadow: #FFB9D8 0 2px 5px 1px, rgba(139, 139, 139, 0.48) 0 1px 1px 1px !important;*/
   box-shadow: #8D8D8D 0 2px 4px -1px !important;
   font-weight: 400 !important;
 }
@@ -562,16 +594,14 @@ button._42ft._4jy0._ej1._4jy3._4jy1.selected._51sy, button._1mf7._4jy0._4jy3._4j
   text-shadow: none !important;
   background: #F8FFBF !important;
   color: #4c4c4c !important;
-  /*   box-shadow: #FFCFE9 0 2px 5px 1px, rgba(139, 139, 139, 0.48) 0 1px 1px 1px !important; */
-  
+  /*   box-shadow: #FFCFE9 0 2px 5px 1px, rgba(139, 139, 139, 0.48) 0 1px 1px 1px !important;*/
   box-shadow: #A3A3A3 0 2px 4px -1px !important;
 }
 /* 按鈕 >> 發文相關 >> 分享權限 >> 點擊前 */
 
 ._6a.uiPopover:not(.selected) ._42ft._4jy0._55pi._5vto._55_p._2agf._p._4jy3._517h._51sy {
   background: #F8FFBF;
-  /*   box-shadow: #FFADD9 0 2px 4px 0px, rgba(139, 139, 139, 0.48) 0 1px 2px 0px !important; */
-  
+  /*   box-shadow: #FFADD9 0 2px 4px 0px, rgba(139, 139, 139, 0.48) 0 1px 2px 0px !important;*/
   box-shadow: #A3A3A3 0 2px 4px -1px !important;
 }
 /* 按鈕 >> 發文相關 >> 分享權限 >> 點擊前下三角 */
@@ -613,23 +643,23 @@ button._42ft._4jy0._4jy3._4jy1.selected._51sy {
 ::-webkit-scrollbar {
   width: 10px;
 }
- 
+
 /* Track */
 ::-webkit-scrollbar-track {
-/*   background: #fff; */
+/*   background: #fff;*/
   background: -webkit-linear-gradient(rgb(255, 185, 205) 43px, #ccc 43px, #fff 44px);
   background: linear-gradient(rgb(255, 185, 205) 43px, #ccc 43px, #fff 44px);
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
 /*   -webkit-border-radius: 0 0 25px 25px;
-  border-radius: 0 0 25px 25px; */
-  background: rgba(255, 185, 205, .5); 
-  -webkit-box-shadow: 0 4px 6px 0 rgb(255,255,255); 
+  border-radius: 0 0 25px 25px;*/
+  background: rgba(255, 185, 205, .5);
+  -webkit-box-shadow: 0 4px 6px 0 rgb(255,255,255);
 }
 ::-webkit-scrollbar-thumb:window-inactive {
-  background: rgba(255, 185, 205, .5); 
+  background: rgba(255, 185, 205, .5);
 }
 
 
@@ -641,21 +671,21 @@ button._42ft._4jy0._4jy3._4jy1.selected._51sy {
 /* Track */
 ._2v5j ::-webkit-scrollbar-track {
   background: transparent;
-/*   background: rgba(255, 185, 205, .5);  */
-  -webkit-box-shadow: 0 4px 6px 0 rgb(255,255,255); 
+/*   background: rgba(255, 185, 205, .5); */
+  -webkit-box-shadow: 0 4px 6px 0 rgb(255,255,255);
 }
 
 ._2v5j ::-webkit-scrollbar-thumb {
 /*   -webkit-border-radius: 0 0 25px 25px;
-  border-radius: 0 0 25px 25px; */
-  background: rgba(255, 185, 205, .5); 
-  -webkit-box-shadow: 0 4px 6px 0 rgb(255,255,255); 
+  border-radius: 0 0 25px 25px;*/
+  background: rgba(255, 185, 205, .5);
+  -webkit-box-shadow: 0 4px 6px 0 rgb(255,255,255);
 }
 ._2v5j ::-webkit-scrollbar-thumb:window-inactive {
-  background: rgba(255, 185, 205, .5); 
+  background: rgba(255, 185, 205, .5);
 }
 
 /************* font ***************/
-html, body, ._2t-8._2t-8, ._5p3y[dir="ltr"], ._5p3y[dir="ltr"] button, ._5p3y[dir="ltr"] input, ._5p3y[dir="ltr"] label, ._5p3y[dir="ltr"] select, ._5p3y[dir="ltr"] td, ._5p3y[dir="ltr"] textarea, ._5p3y[dir="ltr"] .uiMentionsInput .highlighter, ._5p3y[dir="ltr"] .uiButtonText, ._5p3y[dir="ltr"] .uiButton input, ._5p3y[dir="ltr"] .uiLinkButton input, ._5p3y[dir="ltr"] button.as_link, ._5p3y[dir="ltr"] .fbChatSidebar, ._5p3y[dir="ltr"] .fbDock, ._5p3y[dir="ltr"] .fbFeedTicker .fbFeedTickerStory .tickerFeedMessage, ._5p3y[dir="ltr"] .fbFeedTicker .fbFeedTickerStory div.tickerFeedMessage h5, ._5p3y[dir="ltr"] .fbFeedTicker .fbFeedTickerStory div.tickerFeedMessage h6, ._5p3y[dir="ltr"] .uiTooltipX .tooltipContent, ._5p3y[dir="ltr"] a[role="button"], ._5p3y[dir="rtl"] *[dir="ltr"] {
-  font-family: Arial, Meiryo, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", sans-serif;
+html, body, *, ._2t-8._2t-8, ._5p3y[dir="ltr"], ._5p3y[dir="ltr"] button, ._5p3y[dir="ltr"] input, ._5p3y[dir="ltr"] label, ._5p3y[dir="ltr"] select, ._5p3y[dir="ltr"] td, ._5p3y[dir="ltr"] textarea, ._5p3y[dir="ltr"] .uiMentionsInput .highlighter, ._5p3y[dir="ltr"] .uiButtonText, ._5p3y[dir="ltr"] .uiButton input, ._5p3y[dir="ltr"] .uiLinkButton input, ._5p3y[dir="ltr"] button.as_link, ._5p3y[dir="ltr"] .fbChatSidebar, ._5p3y[dir="ltr"] .fbDock, ._5p3y[dir="ltr"] .fbFeedTicker .fbFeedTickerStory .tickerFeedMessage, ._5p3y[dir="ltr"] .fbFeedTicker .fbFeedTickerStory div.tickerFeedMessage h5, ._5p3y[dir="ltr"] .fbFeedTicker .fbFeedTickerStory div.tickerFeedMessage h6, ._5p3y[dir="ltr"] .uiTooltipX .tooltipContent, ._5p3y[dir="ltr"] a[role="button"], ._5p3y[dir="rtl"] *[dir="ltr"] {
+  font-family: Arial, Meiryo, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", sans-serif !important;
 }
