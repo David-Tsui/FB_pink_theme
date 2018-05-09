@@ -492,7 +492,7 @@ a:hover .fbChatTab .funhouse {
   position: absolute !important;
   right: 0 !important;
 }
-/* >> 名條 >> 位讀閃爍效果（好像沒用） */
+/* >> 名條 >> 未讀閃爍效果（好像沒用） */
 
 ._50mz.highlightTitle .fbNubFlyoutTitlebar {
   background: rgb(255, 157, 193) !important;
@@ -516,6 +516,9 @@ a:hover .fbChatTab .funhouse {
 }
 /* >> 視窗 >> 訊息 >> 外框（自己的訊息）*/
 
+._1nc6 ._1aa6 {
+  background: transparent !important;
+}
 ._1nc6 ._5w1r, ._1nc6 ._3okg:before, ._3__- ._1nc6 ._d97 {
   background: none !important;
   border-radius: 8px !important;
