@@ -566,6 +566,10 @@ div#pagelet_timeline_recent {
 ._3-a6._1blz .UFICommentActorAndBody, ._o0o ._3-a6._1blz .UFICommentActorAndBody {
   background: transparent;;
 }
+._3-a6._65_9 .UFICommentActorAndBody, ._o0o ._3-a6._65_9 .UFICommentActorAndBody {
+  background-color: #ffffff;
+}
+
 ._3-a6._4eno .UFICommentActorAndBody {
   padding: 2px 6px;
 }
